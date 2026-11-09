@@ -30,6 +30,8 @@ python eye/verify.py
 
 ## Skin 실행 안내
 
+[Skin 설치·입력 형식·출력 해석·재현검사](skin/README.md)를 참고하세요.
+
 NTP ICE 혼합물 기반 최종 피부자극성 RandomForest 모델입니다.
 성분별 SMILES와 함량(%)을 입력하면 제형의 예측점수와 이진 판정을 반환합니다.
 
