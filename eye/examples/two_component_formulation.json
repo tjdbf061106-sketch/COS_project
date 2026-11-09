@@ -1,0 +1,16 @@
+{
+  "components": [
+    {
+      "component_id": "CMP_001",
+      "name": "Ethanol",
+      "canonical_smiles": "CCO",
+      "amount_pct": 20.0
+    },
+    {
+      "component_id": "CMP_002",
+      "name": "Water",
+      "canonical_smiles": "O",
+      "amount_pct": 80.0
+    }
+  ]
+}

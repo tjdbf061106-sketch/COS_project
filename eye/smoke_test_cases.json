@@ -1,0 +1,78 @@
+{
+  "purpose": "Synthetic software regression cases, not performance evaluation or product formulations.",
+  "source_model_sha256": "d71394e691ac5072e4ce900a53b47ddbb65c8685961fe2c9536411acfbbc58a2",
+  "cases": [
+    {
+      "name": "single_ethanol",
+      "smiles": [
+        "CCO"
+      ],
+      "amounts": null,
+      "expected_score": 0.5923695339045632,
+      "expected_prediction": 1
+    },
+    {
+      "name": "single_water",
+      "smiles": [
+        "O"
+      ],
+      "amounts": null,
+      "expected_score": 0.6308408518233263,
+      "expected_prediction": 1
+    },
+    {
+      "name": "two_components",
+      "smiles": [
+        "CCO",
+        "O"
+      ],
+      "amounts": [
+        20,
+        80
+      ],
+      "expected_score": 0.6232614237228717,
+      "expected_prediction": 1
+    },
+    {
+      "name": "three_components",
+      "smiles": [
+        "CCO",
+        "CC(=O)O",
+        "O"
+      ],
+      "amounts": [
+        10,
+        2,
+        88
+      ],
+      "expected_score": 0.6263711045066119,
+      "expected_prediction": 1
+    },
+    {
+      "name": "salt_fragment_and_missing_descriptors",
+      "smiles": [
+        "[Na+].[Cl-]",
+        "O"
+      ],
+      "amounts": [
+        1,
+        99
+      ],
+      "expected_score": 0.6306490966283126,
+      "expected_prediction": 1
+    },
+    {
+      "name": "zero_weight_component",
+      "smiles": [
+        "CCO",
+        "O"
+      ],
+      "amounts": [
+        0,
+        100
+      ],
+      "expected_score": 0.6308408518233263,
+      "expected_prediction": 1
+    }
+  ]
+}
