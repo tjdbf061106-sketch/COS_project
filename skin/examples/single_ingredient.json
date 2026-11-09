@@ -1,0 +1,11 @@
+{
+  "mixture_id": "example::single",
+  "components": [
+    {
+      "component_id": "CMP_001",
+      "name": "Benzyl alcohol",
+      "canonical_smiles": "OCc1ccccc1",
+      "amount_pct": 100.0
+    }
+  ]
+}
