@@ -61,7 +61,7 @@ loss     = 균형 로지스틱 손실 + 0.5·||(a,b,c,d) − (1,0,0,0)||²
 데이터는 `cosmetic_validation/lechuga_external_validation_results.csv`(10구조 조합, 11개 그룹, 41행,
 양성 18 / 음성 23)입니다.
 
-끼워맞추기로 보이지 않도록 공변량을 하나씩 더하는 4단계를 전부 실행하고 `results/metrics.csv`에 모두
+공변량을 하나씩 더하는 4단계를 전부 실행하고 `results/metrics.csv`에 모두
 남깁니다 — 최종 결과만 골라 제시한 것이 아닙니다.
 
 | 단계 | MCC | AUC | 균형정확도 | TN | FP | FN | TP |
