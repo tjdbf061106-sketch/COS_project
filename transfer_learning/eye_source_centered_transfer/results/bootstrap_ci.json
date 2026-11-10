@@ -1,0 +1,15 @@
+{
+  "resamples": 5000,
+  "valid_resamples": 4988,
+  "single_class_resamples_excluded": 12,
+  "seed": 20261110,
+  "MCC_95_percentile_interval": [
+    0.0,
+    1.0
+  ],
+  "ROC_AUC_95_percentile_interval": [
+    0.33333333333333337,
+    1.0
+  ],
+  "scope": "resample fixed OOF scores by feature group; no model refit or model-selection uncertainty"
+}

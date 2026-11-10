@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "mode": "full_rerun_comparison",
+  "checksummed_files": 30,
+  "target_rows": 16,
+  "target_groups": 15,
+  "source_evaluation_rows": 673,
+  "feature_recipe_max_abs_error": 0.0,
+  "oof_score_max_abs_error": 0.0,
+  "fold_models_reloaded": 30,
+  "group_separation_and_single_oof_exposure": true,
+  "metrics_recalculated": true,
+  "bootstrap_matches_reference": true,
+  "cli_from_other_directory": true,
+  "scope": "reconstruction reproducibility; not independent external validation"
+}

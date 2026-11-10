@@ -1,0 +1,2 @@
+# Eye transfer reproduction; use an environment separate from Skin.
+-r requirements-lock.txt

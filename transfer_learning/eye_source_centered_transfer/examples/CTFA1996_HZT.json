@@ -1,0 +1,81 @@
+{
+  "formulation_id": "CTFA1996_HZT",
+  "components": [
+    {
+      "name": "Water",
+      "amount_pct": 33.85
+    },
+    {
+      "name": "Mineral oil",
+      "amount_pct": 10.0
+    },
+    {
+      "name": "Lauroamphocarboxyglycinate (25%)",
+      "amount_pct": 8.8
+    },
+    {
+      "name": "Sodium trideceth sulfate (16%)",
+      "amount_pct": 9.4
+    },
+    {
+      "name": "Petrolatum",
+      "amount_pct": 6.6
+    },
+    {
+      "name": "Isopropyl palmitate",
+      "amount_pct": 6.6
+    },
+    {
+      "name": "Propylene glycol",
+      "amount_pct": 5.0
+    },
+    {
+      "name": "Cetyl palmitate",
+      "amount_pct": 4.4
+    },
+    {
+      "name": "Glyceryl stearate and PEG-100 stearate",
+      "amount_pct": 4.4
+    },
+    {
+      "name": "Aluminum silicate",
+      "amount_pct": 3.0
+    },
+    {
+      "name": "Cetyl alcohol",
+      "amount_pct": 2.5
+    },
+    {
+      "name": "Polypropylene",
+      "amount_pct": 2.5
+    },
+    {
+      "name": "Magnesium aluminum silicate",
+      "amount_pct": 1.0
+    },
+    {
+      "name": "Titanium dioxide",
+      "amount_pct": 0.5
+    },
+    {
+      "name": "Hexylene glycol",
+      "amount_pct": 0.4
+    },
+    {
+      "name": "Imidazolidinyl urea",
+      "amount_pct": 0.3
+    },
+    {
+      "name": "Methylparaben",
+      "amount_pct": 0.3
+    },
+    {
+      "name": "Lactic acid",
+      "amount_pct": 0.25
+    },
+    {
+      "name": "Propylparaben",
+      "amount_pct": 0.2
+    }
+  ]
+}

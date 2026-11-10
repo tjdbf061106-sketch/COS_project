@@ -1,0 +1,810 @@
+[
+  {
+    "formulation_id": "CTFA1996_HZA",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 53.86
+      },
+      {
+        "name": "Sodium lauryl sulfate (30%)",
+        "amount_pct": 25.0
+      },
+      {
+        "name": "Disodium laureth sulfocuccinate (40%)",
+        "amount_pct": 15.0
+      },
+      {
+        "name": "Lauramide DEA",
+        "amount_pct": 0.5
+      },
+      {
+        "name": "Butylene glucol",
+        "amount_pct": 5.0
+      },
+      {
+        "name": "Methyl and propylparabens",
+        "amount_pct": 0.25
+      },
+      {
+        "name": "Carageenan",
+        "amount_pct": 0.35
+      },
+      {
+        "name": "Methyl and methylchloroisothiazolinone",
+        "amount_pct": 0.04
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZC",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 14.037
+      },
+      {
+        "name": "Laurylamidopropyl betaine (30%)",
+        "amount_pct": 60.0
+      },
+      {
+        "name": "Cetrimonium chloride",
+        "amount_pct": 16.0
+      },
+      {
+        "name": "PEG-3 cocamide",
+        "amount_pct": 4.5
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 3.5
+      },
+      {
+        "name": "Sodium chloride",
+        "amount_pct": 1.0
+      },
+      {
+        "name": "Ditallowdimonium chloride (73%)",
+        "amount_pct": 0.7
+      },
+      {
+        "name": "Lauryl alcohol",
+        "amount_pct": 0.25
+      },
+      {
+        "name": "Methyl and chloroisothiazolinone (1.5%)",
+        "amount_pct": 0.033
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZD",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 54.12
+      },
+      {
+        "name": "Sodium laureth sulfate (26%)",
+        "amount_pct": 38.0
+      },
+      {
+        "name": "Cocamide DEA",
+        "amount_pct": 3.0
+      },
+      {
+        "name": "Cocamide propyl betaine (37%)",
+        "amount_pct": 1.75
+      },
+      {
+        "name": "Disodium EDTA",
+        "amount_pct": 0.05
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.15
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.1
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.25
+      },
+      {
+        "name": "FD&C Yellow No. 5 (1%)",
+        "amount_pct": 0.05
+      },
+      {
+        "name": "D&C Red No. 33 (0.5%)",
+        "amount_pct": 0.015
+      },
+      {
+        "name": "DMDM hydantoin (54%)",
+        "amount_pct": 0.3
+      },
+      {
+        "name": "BHT",
+        "amount_pct": 0.05
+      },
+      {
+        "name": "Sodium glutamate",
+        "amount_pct": 2.0
+      },
+      {
+        "name": "Sodium choride",
+        "amount_pct": 0.17
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZE",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 59.974
+      },
+      {
+        "name": "Acylglutamate CT-12 (30%)",
+        "amount_pct": 15.0
+      },
+      {
+        "name": "Cocoamphodiacetate (50%)",
+        "amount_pct": 15.0
+      },
+      {
+        "name": "Sodium nonoxynol-6 phosphate (88.5%)",
+        "amount_pct": 6.0
+      },
+      {
+        "name": "Quaternium-26 (58%)",
+        "amount_pct": 1.5
+      },
+      {
+        "name": "PEG-120-methyl glucose dioleate",
+        "amount_pct": 1.5
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.1
+      },
+      {
+        "name": "Sodium citrate",
+        "amount_pct": 0.5
+      },
+      {
+        "name": "Disodium EDTA",
+        "amount_pct": 0.05
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.15
+      },
+      {
+        "name": "DMDM hydentoin (55%)",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "FD&C Yellow No. 10 (1%)",
+        "amount_pct": 0.001
+      },
+      {
+        "name": "D&C Blue No. 1 (0.746%)",
+        "amount_pct": 0.025
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZF",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 57.653
+      },
+      {
+        "name": "Sodium laureth (2EO) sulfate (28%)",
+        "amount_pct": 21.43
+      },
+      {
+        "name": "Disodium laureth-3-sulfosuccinate (40%)",
+        "amount_pct": 9.09
+      },
+      {
+        "name": "Cocamidopropyl betaine (30%)",
+        "amount_pct": 10.0
+      },
+      {
+        "name": "Lauramide DEA",
+        "amount_pct": 1.5
+      },
+      {
+        "name": "Kathon CG (1.5%)",
+        "amount_pct": 0.067
+      },
+      {
+        "name": "Tetrasodium EDTA (30%)",
+        "amount_pct": 0.26
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZG",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 48.43
+      },
+      {
+        "name": "Sodium laureth sulfate (28%)",
+        "amount_pct": 20.0
+      },
+      {
+        "name": "Sodium lauryl sulfate (30%)",
+        "amount_pct": 25.0
+      },
+      {
+        "name": "Lauramide-DEA",
+        "amount_pct": 5.0
+      },
+      {
+        "name": "Hydroxyethyl tallow glycinate",
+        "amount_pct": 1.0
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "PEG-45M",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "Methyl and propylparabens",
+        "amount_pct": 0.13
+      },
+      {
+        "name": "Methyl and chloromethyl-isothiazolinone",
+        "amount_pct": 0.04
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZH",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 96.242
+      },
+      {
+        "name": "Sodium laureth sulfate (21%)",
+        "amount_pct": 0.9
+      },
+      {
+        "name": "Cocoamphocarboxyglycinate (40%)",
+        "amount_pct": 1.1
+      },
+      {
+        "name": "Hexylene glycol",
+        "amount_pct": 1.0
+      },
+      {
+        "name": "Dipotassium phosphate",
+        "amount_pct": 0.394
+      },
+      {
+        "name": "Potassium phosphate",
+        "amount_pct": 0.102
+      },
+      {
+        "name": "Allantoin",
+        "amount_pct": 0.05
+      },
+      {
+        "name": "Methyl paraben",
+        "amount_pct": 0.15
+      },
+      {
+        "name": "EDTA",
+        "amount_pct": 0.15
+      },
+      {
+        "name": "Rose water",
+        "amount_pct": 0.008
+      },
+      {
+        "name": "Thimerosal",
+        "amount_pct": 0.003
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZI",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 44.0
+      },
+      {
+        "name": "Sodium laureth sulfate (30%)",
+        "amount_pct": 50.0
+      },
+      {
+        "name": "Cocamide MEA",
+        "amount_pct": 5.0
+      },
+      {
+        "name": "Sodium chloride",
+        "amount_pct": 0.4
+      },
+      {
+        "name": "Disodium EDTA",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "Imidizolidinyl urea",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "Benzoic acid",
+        "amount_pct": 0.1
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZL",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 47.76
+      },
+      {
+        "name": "Sodium laureth sulfate (26%)",
+        "amount_pct": 46.0
+      },
+      {
+        "name": "Cocamido propyl betaine (30%)",
+        "amount_pct": 2.5
+      },
+      {
+        "name": "Sodium chloride",
+        "amount_pct": 2.4
+      },
+      {
+        "name": "Glycol monostearate",
+        "amount_pct": 0.4
+      },
+      {
+        "name": "Color solution",
+        "amount_pct": 0.3
+      },
+      {
+        "name": "DMDM hydantoin (54%)",
+        "amount_pct": 0.25
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.1
+      },
+      {
+        "name": "BHT",
+        "amount_pct": 0.05
+      },
+      {
+        "name": "Aloe vera gel",
+        "amount_pct": 0.015
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.016
+      },
+      {
+        "name": "Tetrasodium EDTA",
+        "amount_pct": 0.01
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZN",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 44.381
+      },
+      {
+        "name": "Sodium laureth (2EO) sulfate (28%)",
+        "amount_pct": 43.634
+      },
+      {
+        "name": "cocamidopropyl betaine (30%)",
+        "amount_pct": 11.76
+      },
+      {
+        "name": "Tetrasodium EDTA",
+        "amount_pct": 0.125
+      },
+      {
+        "name": "Formalin",
+        "amount_pct": 0.1
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZQ",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 68.93
+      },
+      {
+        "name": "Lauramphocarboxyglycinate (25%)",
+        "amount_pct": 10.4
+      },
+      {
+        "name": "Sodium trideceth sulfate (16%)",
+        "amount_pct": 10.6
+      },
+      {
+        "name": "TEA-lauryl sulfate (40%)",
+        "amount_pct": 3.5
+      },
+      {
+        "name": "Lauramide DEA",
+        "amount_pct": 0.5
+      },
+      {
+        "name": "PEG-150 distearate",
+        "amount_pct": 2.8
+      },
+      {
+        "name": "Propylene glycol",
+        "amount_pct": 1.4
+      },
+      {
+        "name": "Hexylene glycol",
+        "amount_pct": 1.05
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.28
+      },
+      {
+        "name": "Diazolidinyl urea",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "Sodium citrate",
+        "amount_pct": 0.14
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZR",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 32.97
+      },
+      {
+        "name": "Sodium cocoyl isethionate",
+        "amount_pct": 20.0
+      },
+      {
+        "name": "Sodium lauroyl sarcosinate (30%)",
+        "amount_pct": 25.0
+      },
+      {
+        "name": "PPG-5-ceteth-10 phosphate",
+        "amount_pct": 4.0
+      },
+      {
+        "name": "Linoleamide DEA",
+        "amount_pct": 2.0
+      },
+      {
+        "name": "Sorbitol (70%)",
+        "amount_pct": 2.75
+      },
+      {
+        "name": "Glycol stearate",
+        "amount_pct": 5.5
+      },
+      {
+        "name": "Glycerin",
+        "amount_pct": 2.0
+      },
+      {
+        "name": "Diglycerol",
+        "amount_pct": 2.0
+      },
+      {
+        "name": "Cetearyl alcohol",
+        "amount_pct": 2.75
+      },
+      {
+        "name": "Mineral oil",
+        "amount_pct": 0.5
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.15
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.1
+      },
+      {
+        "name": "Trisodium EDTA",
+        "amount_pct": 0.1
+      },
+      {
+        "name": "Beeswax",
+        "amount_pct": 0.1
+      },
+      {
+        "name": "Ceresin",
+        "amount_pct": 0.06
+      },
+      {
+        "name": "Sodium borate",
+        "amount_pct": 0.02
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZS",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 27.567
+      },
+      {
+        "name": "Sodium lauroyl sarcosinate (30%)",
+        "amount_pct": 25.0
+      },
+      {
+        "name": "Laurimidopropyl betaine (30%)",
+        "amount_pct": 25.0
+      },
+      {
+        "name": "Cocamidopropyl hydroxysultaine (50%)",
+        "amount_pct": 15.0
+      },
+      {
+        "name": "Linoleamide DEA",
+        "amount_pct": 4.5
+      },
+      {
+        "name": "Glycol stearate",
+        "amount_pct": 1.0
+      },
+      {
+        "name": "Polyquaternium-2",
+        "amount_pct": 1.0
+      },
+      {
+        "name": "Phosphoric acid (86.5%)",
+        "amount_pct": 0.6
+      },
+      {
+        "name": "Tetrasodium EDTA",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "BHT",
+        "amount_pct": 0.05
+      },
+      {
+        "name": "PPG-12-buteth-16",
+        "amount_pct": 0.05
+      },
+      {
+        "name": "Methyl and chlorosothiazolinone (1.5%)",
+        "amount_pct": 0.033
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZT",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 33.85
+      },
+      {
+        "name": "Mineral oil",
+        "amount_pct": 10.0
+      },
+      {
+        "name": "Lauroamphocarboxyglycinate (25%)",
+        "amount_pct": 8.8
+      },
+      {
+        "name": "Sodium trideceth sulfate (16%)",
+        "amount_pct": 9.4
+      },
+      {
+        "name": "Petrolatum",
+        "amount_pct": 6.6
+      },
+      {
+        "name": "Isopropyl palmitate",
+        "amount_pct": 6.6
+      },
+      {
+        "name": "Propylene glycol",
+        "amount_pct": 5.0
+      },
+      {
+        "name": "Cetyl palmitate",
+        "amount_pct": 4.4
+      },
+      {
+        "name": "Glyceryl stearate and PEG-100 stearate",
+        "amount_pct": 4.4
+      },
+      {
+        "name": "Aluminum silicate",
+        "amount_pct": 3.0
+      },
+      {
+        "name": "Cetyl alcohol",
+        "amount_pct": 2.5
+      },
+      {
+        "name": "Polypropylene",
+        "amount_pct": 2.5
+      },
+      {
+        "name": "Magnesium aluminum silicate",
+        "amount_pct": 1.0
+      },
+      {
+        "name": "Titanium dioxide",
+        "amount_pct": 0.5
+      },
+      {
+        "name": "Hexylene glycol",
+        "amount_pct": 0.4
+      },
+      {
+        "name": "Imidazolidinyl urea",
+        "amount_pct": 0.3
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.3
+      },
+      {
+        "name": "Lactic acid",
+        "amount_pct": 0.25
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.2
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZU",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 37.95
+      },
+      {
+        "name": "Sodium C14-16 olefin sulfonate (36%)",
+        "amount_pct": 20.25
+      },
+      {
+        "name": "Sodium lauroyl sarcosinate",
+        "amount_pct": 20.0
+      },
+      {
+        "name": "Cocamidopropyl hydroxysultaine",
+        "amount_pct": 8.0
+      },
+      {
+        "name": "Propylene glycol",
+        "amount_pct": 3.0
+      },
+      {
+        "name": "Glycerol stearate",
+        "amount_pct": 3.0
+      },
+      {
+        "name": "PPG-12-PEG-50 lanolin",
+        "amount_pct": 3.0
+      },
+      {
+        "name": "Polyquaternium-7",
+        "amount_pct": 2.0
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 1.0
+      },
+      {
+        "name": "Hydrolysed animal protein",
+        "amount_pct": 1.0
+      },
+      {
+        "name": "Polyquaternium-10",
+        "amount_pct": 0.5
+      },
+      {
+        "name": "Quaternium-15",
+        "amount_pct": 0.2
+      },
+      {
+        "name": "Aloe vera gel",
+        "amount_pct": 0.1
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZY",
+    "components": [
+      {
+        "name": "Water",
+        "amount_pct": 27.13
+      },
+      {
+        "name": "Sodium lauroyl sarcosinate (30%)",
+        "amount_pct": 15.0
+      },
+      {
+        "name": "Lauramide DEA",
+        "amount_pct": 4.5
+      },
+      {
+        "name": "TEA-lauryl sulfate (40%)",
+        "amount_pct": 45.0
+      },
+      {
+        "name": "Glycol distearate",
+        "amount_pct": 3.0
+      },
+      {
+        "name": "Zinc pyrithione",
+        "amount_pct": 2.1
+      },
+      {
+        "name": "Sodium chloride",
+        "amount_pct": 1.2
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.9
+      },
+      {
+        "name": "Imidazolidinyl urea",
+        "amount_pct": 0.5
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.3
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.1
+      },
+      {
+        "name": "Xanthan gum",
+        "amount_pct": 0.27
+      }
+    ]
+  }
+]

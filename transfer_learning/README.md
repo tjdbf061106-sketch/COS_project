@@ -1,4 +1,15 @@
-# Skin Option A 재보정 전이학습
+# Skin / Eye 전이학습
+
+| 실험 | 재현 자료 | 그룹 교차검증 결과 |
+|---|---|---|
+| Skin Option A 재보정 | [아래 Skin 설명](#skin-option-a-재보정-전이학습) · [폴더](skin_option_a_recalibration/) | MCC 0.6563 · AUC 0.9046 |
+| Eye 기존계수 기반 전이학습 | [결과와 재현 방법](eye_source_centered_transfer/README.md) · [폴더](eye_source_centered_transfer/) | 14/16 · MCC 0.7125 · AUC 0.7636 |
+
+두 실험은 데이터와 평가 라벨이 다릅니다. Eye는 673행 전체 평가 버전의 기반 모델을 사용하며,
+Gettings 1996의 16제형·15그룹 OOF 결과를 제공합니다. 의존성 버전이 달라 **각각 별도 환경**에서 실행합니다.
+이 폴더의 `requirements.txt`는 Skin용이며, Eye는 해당 하위 폴더의 `requirements.txt`를 사용합니다.
+
+## Skin Option A 재보정 전이학습
 
 frozen skin_rf의 Option A 출력을 출발점으로 삼아, 계면활성제 혼합물의 농도와 HLB를 더해 미세 재보정한
 전이학습입니다. production 체크포인트(`skin/skin_rf_checkpoint.joblib`)는 재학습하지 않으며, 스크립트가

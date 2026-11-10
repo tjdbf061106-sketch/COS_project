@@ -1,0 +1,169 @@
+{
+  "status": "new reconstruction whitelist; original mapping.json unavailable",
+  "selection": "13 explicit solvent/humectant, acid, preservative, salt/chelating identities. Fixed before evaluation; not an exhaustive list of resolvable compounds.",
+  "normalization": "case-fold and collapse spaces; listed aliases only; stock percentages and composite ingredient names are NOT stripped or guessed",
+  "unknown_policy": "exclude from structural features but retain in coverage audit; no carrier or active-fraction imputation",
+  "identity_scope": "Candidate molecular structures; supplier grade, hydration, stereochemical composition and batch identity are not established.",
+  "entries": [
+    {
+      "id": "water",
+      "aliases": [
+        "water"
+      ],
+      "cas": "7732-18-5",
+      "pubchem_cid": 962,
+      "canonical_smiles": "O",
+      "inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+      "formula": "H2O",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7732-18-5/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "glycerin",
+      "aliases": [
+        "glycerin",
+        "glycerol"
+      ],
+      "cas": "56-81-5",
+      "pubchem_cid": 753,
+      "canonical_smiles": "C(C(CO)O)O",
+      "inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+      "formula": "C3H8O3",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/56-81-5/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "propylene_glycol",
+      "aliases": [
+        "propylene glycol"
+      ],
+      "cas": "57-55-6",
+      "pubchem_cid": 1030,
+      "canonical_smiles": "CC(CO)O",
+      "inchikey": "DNIAPMSPPWPWGF-UHFFFAOYSA-N",
+      "formula": "C3H8O2",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/57-55-6/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "hexylene_glycol",
+      "aliases": [
+        "hexylene glycol"
+      ],
+      "cas": "107-41-5",
+      "pubchem_cid": 7870,
+      "canonical_smiles": "CC(CC(C)(C)O)O",
+      "inchikey": "SVTBMSDMJJWYQN-UHFFFAOYSA-N",
+      "formula": "C6H14O2",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/107-41-5/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "citric_acid",
+      "aliases": [
+        "citric acid"
+      ],
+      "cas": "77-92-9",
+      "pubchem_cid": 311,
+      "canonical_smiles": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+      "inchikey": "KRKNYBCHXYNGOX-UHFFFAOYSA-N",
+      "formula": "C6H8O7",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/77-92-9/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "lactic_acid",
+      "aliases": [
+        "lactic acid"
+      ],
+      "cas": "50-21-5",
+      "pubchem_cid": 612,
+      "canonical_smiles": "CC(C(=O)O)O",
+      "inchikey": "JVTAAEKCZFNVCJ-UHFFFAOYSA-N",
+      "formula": "C3H6O3",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/50-21-5/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "benzoic_acid",
+      "aliases": [
+        "benzoic acid"
+      ],
+      "cas": "65-85-0",
+      "pubchem_cid": 243,
+      "canonical_smiles": "C1=CC=C(C=C1)C(=O)O",
+      "inchikey": "WPYMKLBDIGXBTP-UHFFFAOYSA-N",
+      "formula": "C7H6O2",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/65-85-0/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "methylparaben",
+      "aliases": [
+        "methylparaben",
+        "methyl paraben"
+      ],
+      "cas": "99-76-3",
+      "pubchem_cid": 7456,
+      "canonical_smiles": "COC(=O)C1=CC=C(C=C1)O",
+      "inchikey": "LXCFILQKKLGQFO-UHFFFAOYSA-N",
+      "formula": "C8H8O3",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/99-76-3/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "propylparaben",
+      "aliases": [
+        "propylparaben",
+        "propyl paraben"
+      ],
+      "cas": "94-13-3",
+      "pubchem_cid": 7175,
+      "canonical_smiles": "CCCOC(=O)C1=CC=C(C=C1)O",
+      "inchikey": "QELSKZZBTMNZEB-UHFFFAOYSA-N",
+      "formula": "C10H12O3",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/94-13-3/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "bht",
+      "aliases": [
+        "bht"
+      ],
+      "cas": "128-37-0",
+      "pubchem_cid": 31404,
+      "canonical_smiles": "CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C",
+      "inchikey": "NLZUEZXRPGMBCV-UHFFFAOYSA-N",
+      "formula": "C15H24O",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/128-37-0/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "sodium_chloride",
+      "aliases": [
+        "sodium chloride",
+        "sodium choride"
+      ],
+      "cas": "7647-14-5",
+      "pubchem_cid": 5234,
+      "canonical_smiles": "[Na+].[Cl-]",
+      "inchikey": "FAPWRFPIFSIZLT-UHFFFAOYSA-M",
+      "formula": "ClNa",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/7647-14-5/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "edta",
+      "aliases": [
+        "edta"
+      ],
+      "cas": "60-00-4",
+      "pubchem_cid": 6049,
+      "canonical_smiles": "C(CN(CC(=O)O)CC(=O)O)N(CC(=O)O)CC(=O)O",
+      "inchikey": "KCXVZYZYPLLWCC-UHFFFAOYSA-N",
+      "formula": "C10H16N2O8",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/60-00-4/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    },
+    {
+      "id": "tetrasodium_edta",
+      "aliases": [
+        "tetrasodium edta"
+      ],
+      "cas": "64-02-8",
+      "pubchem_cid": 6144,
+      "canonical_smiles": "C(CN(CC(=O)[O-])CC(=O)[O-])N(CC(=O)[O-])CC(=O)[O-].[Na+].[Na+].[Na+].[Na+]",
+      "inchikey": "UEUXEKPTXMALOB-UHFFFAOYSA-J",
+      "formula": "C10H12N2Na4O8",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/64-02-8/property/ConnectivitySMILES,InChIKey,MolecularFormula/JSON"
+    }
+  ]
+}

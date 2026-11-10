@@ -1,0 +1,1022 @@
+[
+  {
+    "fold": 1,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_01.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZQ"
+    ],
+    "group": "04607f8d69b87650459f",
+    "optimization": {
+      "success": true,
+      "iterations": 23,
+      "loss": 0.6334217512232195,
+      "gradient_max_abs": 5.097318078045587e-09,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "fold": 1,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_01.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZQ"
+    ],
+    "group": "04607f8d69b87650459f",
+    "optimization": {
+      "success": true,
+      "iterations": 30,
+      "loss": 0.6321635855621595,
+      "gradient_max_abs": 8.518470056640207e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 2,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_02.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZU"
+    ],
+    "group": "18f43193e8f6b3382567",
+    "optimization": {
+      "success": true,
+      "iterations": 31,
+      "loss": 0.6055978468249132,
+      "gradient_max_abs": 8.014405196259122e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 2,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_02.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZU"
+    ],
+    "group": "18f43193e8f6b3382567",
+    "optimization": {
+      "success": true,
+      "iterations": 24,
+      "loss": 0.604981731599283,
+      "gradient_max_abs": 1.4231673522990818e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 3,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_03.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZT"
+    ],
+    "group": "1e5dec13c452c4cb6f5b",
+    "optimization": {
+      "success": true,
+      "iterations": 23,
+      "loss": 0.6445938043065075,
+      "gradient_max_abs": 5.539902619283721e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 3,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_03.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZT"
+    ],
+    "group": "1e5dec13c452c4cb6f5b",
+    "optimization": {
+      "success": true,
+      "iterations": 25,
+      "loss": 0.6440615335537709,
+      "gradient_max_abs": 2.1457379588418757e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 4,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_04.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZL"
+    ],
+    "group": "1e84c69270e386bbf70c",
+    "optimization": {
+      "success": true,
+      "iterations": 33,
+      "loss": 0.6216000032239443,
+      "gradient_max_abs": 1.0071889767354365e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 4,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_04.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZL"
+    ],
+    "group": "1e84c69270e386bbf70c",
+    "optimization": {
+      "success": true,
+      "iterations": 27,
+      "loss": 0.620605544014363,
+      "gradient_max_abs": 1.7719313875549925e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 5,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_05.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZN"
+    ],
+    "group": "26947cddbbef5b7a1405",
+    "optimization": {
+      "success": true,
+      "iterations": 31,
+      "loss": 0.6207754205416094,
+      "gradient_max_abs": 1.492692121296546e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 5,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_05.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZN"
+    ],
+    "group": "26947cddbbef5b7a1405",
+    "optimization": {
+      "success": true,
+      "iterations": 25,
+      "loss": 0.6198271420093412,
+      "gradient_max_abs": 8.668945774463824e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 6,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_06.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZE"
+    ],
+    "group": "2c7c94d11df068836a71",
+    "optimization": {
+      "success": true,
+      "iterations": 31,
+      "loss": 0.6207005608075976,
+      "gradient_max_abs": 3.263667357547573e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 6,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_06.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZE"
+    ],
+    "group": "2c7c94d11df068836a71",
+    "optimization": {
+      "success": true,
+      "iterations": 30,
+      "loss": 0.6197507522015663,
+      "gradient_max_abs": 1.5155391959410444e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 7,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_07.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZS"
+    ],
+    "group": "3306bb07f784571736c9",
+    "optimization": {
+      "success": true,
+      "iterations": 30,
+      "loss": 0.6208473975755002,
+      "gradient_max_abs": 3.951932876430919e-09,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "fold": 7,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_07.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZS"
+    ],
+    "group": "3306bb07f784571736c9",
+    "optimization": {
+      "success": true,
+      "iterations": 26,
+      "loss": 0.6198888227481314,
+      "gradient_max_abs": 6.2981345817867546e-09,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "fold": 8,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_08.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZR"
+    ],
+    "group": "7107d69f13c32396e836",
+    "optimization": {
+      "success": true,
+      "iterations": 35,
+      "loss": 0.6182052240979076,
+      "gradient_max_abs": 2.5454399752052048e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 8,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_08.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZR"
+    ],
+    "group": "7107d69f13c32396e836",
+    "optimization": {
+      "success": true,
+      "iterations": 31,
+      "loss": 0.6170441215876599,
+      "gradient_max_abs": 7.997716904950374e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 9,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_09.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZH"
+    ],
+    "group": "7abec0476f325d74b844",
+    "optimization": {
+      "success": true,
+      "iterations": 23,
+      "loss": 0.6208099248702758,
+      "gradient_max_abs": 3.6861394839271533e-09,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "fold": 9,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_09.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZH"
+    ],
+    "group": "7abec0476f325d74b844",
+    "optimization": {
+      "success": true,
+      "iterations": 24,
+      "loss": 0.6195257317374611,
+      "gradient_max_abs": 2.631477594161602e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 10,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_10.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZF"
+    ],
+    "group": "8177b527a5851f4891af",
+    "optimization": {
+      "success": true,
+      "iterations": 32,
+      "loss": 0.6192209075703515,
+      "gradient_max_abs": 3.0748633320087926e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 10,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_10.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZF"
+    ],
+    "group": "8177b527a5851f4891af",
+    "optimization": {
+      "success": true,
+      "iterations": 20,
+      "loss": 0.6183643270708151,
+      "gradient_max_abs": 8.334281709470454e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 11,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_11.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZG"
+    ],
+    "group": "aeda07a45390416b5eab",
+    "optimization": {
+      "success": true,
+      "iterations": 28,
+      "loss": 0.6208995584043433,
+      "gradient_max_abs": 2.976739427677094e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 11,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_11.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZG"
+    ],
+    "group": "aeda07a45390416b5eab",
+    "optimization": {
+      "success": true,
+      "iterations": 32,
+      "loss": 0.619942644221143,
+      "gradient_max_abs": 3.409997486399259e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 12,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_12.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZC"
+    ],
+    "group": "b19577146a69441d7854",
+    "optimization": {
+      "success": true,
+      "iterations": 24,
+      "loss": 0.6239428404307219,
+      "gradient_max_abs": 6.833137646683474e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 12,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_12.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZC"
+    ],
+    "group": "b19577146a69441d7854",
+    "optimization": {
+      "success": true,
+      "iterations": 23,
+      "loss": 0.6224654407400617,
+      "gradient_max_abs": 5.0418620479997234e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 13,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_13.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZI"
+    ],
+    "group": "c3eed66b5ba7cbd88a63",
+    "optimization": {
+      "success": true,
+      "iterations": 31,
+      "loss": 0.6207330408516274,
+      "gradient_max_abs": 1.0680507620680624e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 13,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_13.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZI"
+    ],
+    "group": "c3eed66b5ba7cbd88a63",
+    "optimization": {
+      "success": true,
+      "iterations": 31,
+      "loss": 0.6197750042972979,
+      "gradient_max_abs": 2.8348934351946488e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 14,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_14.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZD"
+    ],
+    "group": "e538ed8aaa716158bcfc",
+    "optimization": {
+      "success": true,
+      "iterations": 31,
+      "loss": 0.5852478189562871,
+      "gradient_max_abs": 1.28697757554707e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 14,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_14.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU",
+      "CTFA1996_HZY"
+    ],
+    "test_ids": [
+      "CTFA1996_HZD"
+    ],
+    "group": "e538ed8aaa716158bcfc",
+    "optimization": {
+      "success": true,
+      "iterations": 21,
+      "loss": 0.583941283114889,
+      "gradient_max_abs": 2.471559730488071e-08,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "fold": 15,
+    "method": "source_centered_transfer",
+    "model_file": "fold_models\\source_centered_transfer_15.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU"
+    ],
+    "test_ids": [
+      "CTFA1996_HZY"
+    ],
+    "group": "efc43d0f6df031ed6acb",
+    "optimization": {
+      "success": true,
+      "iterations": 27,
+      "loss": 0.6219175880733012,
+      "gradient_max_abs": 6.346267934775884e-09,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  },
+  {
+    "fold": 15,
+    "method": "zero_centered_control",
+    "model_file": "fold_models\\zero_centered_control_15.joblib",
+    "role": "held_out_fold",
+    "train_ids": [
+      "CTFA1996_HZA",
+      "CTFA1996_HZC",
+      "CTFA1996_HZD",
+      "CTFA1996_HZE",
+      "CTFA1996_HZF",
+      "CTFA1996_HZG",
+      "CTFA1996_HZH",
+      "CTFA1996_HZI",
+      "CTFA1996_HZL",
+      "CTFA1996_HZN",
+      "CTFA1996_HZQ",
+      "CTFA1996_HZR",
+      "CTFA1996_HZS",
+      "CTFA1996_HZT",
+      "CTFA1996_HZU"
+    ],
+    "test_ids": [
+      "CTFA1996_HZY"
+    ],
+    "group": "efc43d0f6df031ed6acb",
+    "optimization": {
+      "success": true,
+      "iterations": 36,
+      "loss": 0.6208460928798623,
+      "gradient_max_abs": 7.988950987726506e-09,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+    }
+  }
+]

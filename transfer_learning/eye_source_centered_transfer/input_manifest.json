@@ -1,0 +1,34 @@
+{
+  "data/formulations.csv": {
+    "source_file": "data/formulations.csv",
+    "sha256": "f33cca8d2462f0530b9ff0168143fe2613d08641144f5c4efd91e087f3a7c357"
+  },
+  "data/payloads.json": {
+    "source_file": "data/payloads.json",
+    "sha256": "0d0686ae43059ce2dde9fc8e4b908c6a8ce16a1abe2e7d17a3896340ec9c3c30"
+  },
+  "data/candidate_audit.csv": {
+    "source_file": "data/candidate_audit.csv",
+    "sha256": "9d5b0112d30c88aefb0a259a40731837f82c0d2e49616db15141adfc5e5ffc78"
+  },
+  "data/protocol.json": {
+    "source_file": "protocol.json",
+    "sha256": "2bd138f0487c2761038d8da2e4876233e2bc84be375de735031678c552dc8780"
+  },
+  "data/mapping.json": {
+    "source_file": "mapping.json",
+    "sha256": "c84dee628fa76f4340b5bd15e987ab4ea5da481a75040bd320f64004ddcfdc30"
+  },
+  "source_model/eye_A_final.joblib": {
+    "source_file": "source_model/eye_A_final.joblib",
+    "sha256": "5d5c0532cd12fd00927c9564ee28dc9c95a8bb396a049c705c77dcafaf5b28e5"
+  },
+  "source_model/metadata.json": {
+    "source_file": "source_model/metadata.json",
+    "sha256": "6a261f4fc796c4f415162b3a45091efca77f5c5e5752795fdb71004703a3cdb4"
+  },
+  "source_model/predict.py": {
+    "source_file": "source_model/predict.py",
+    "sha256": "6126f477fbcc0f911abdf0284019bc64d1a16b908e64a01389765d6586aa6c68"
+  }
+}

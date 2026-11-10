@@ -1,0 +1,90 @@
+{
+  "source_package": "최종 모델",
+  "scope": "Selected reproducible inputs and reference outputs, using the source model evaluated on all 673 rows.",
+  "files": {
+    "common.py": {
+      "source_file": "common.py",
+      "sha256": "16b40b8d84eb90b78165591f304ca97a43516b5a7c4b126636de1608e72150a3"
+    },
+    "requirements-lock.txt": {
+      "source_file": "requirements-lock.txt",
+      "sha256": "30e4b819e729dc0d87d5b9d4afe1f5e7cc467b8f428cb72b58140c6a5bdf55d7"
+    },
+    "data/formulations.csv": {
+      "source_file": "data/formulations.csv",
+      "sha256": "f33cca8d2462f0530b9ff0168143fe2613d08641144f5c4efd91e087f3a7c357"
+    },
+    "data/payloads.json": {
+      "source_file": "data/payloads.json",
+      "sha256": "0d0686ae43059ce2dde9fc8e4b908c6a8ce16a1abe2e7d17a3896340ec9c3c30"
+    },
+    "data/candidate_audit.csv": {
+      "source_file": "data/candidate_audit.csv",
+      "sha256": "9d5b0112d30c88aefb0a259a40731837f82c0d2e49616db15141adfc5e5ffc78"
+    },
+    "data/protocol.json": {
+      "source_file": "protocol.json",
+      "sha256": "2bd138f0487c2761038d8da2e4876233e2bc84be375de735031678c552dc8780"
+    },
+    "data/mapping.json": {
+      "source_file": "mapping.json",
+      "sha256": "c84dee628fa76f4340b5bd15e987ab4ea5da481a75040bd320f64004ddcfdc30"
+    },
+    "source_model/eye_A_final.joblib": {
+      "source_file": "source_model/eye_A_final.joblib",
+      "sha256": "5d5c0532cd12fd00927c9564ee28dc9c95a8bb396a049c705c77dcafaf5b28e5"
+    },
+    "source_model/metadata.json": {
+      "source_file": "source_model/metadata.json",
+      "sha256": "6a261f4fc796c4f415162b3a45091efca77f5c5e5752795fdb71004703a3cdb4"
+    },
+    "source_model/predict.py": {
+      "source_file": "source_model/predict.py",
+      "sha256": "6126f477fbcc0f911abdf0284019bc64d1a16b908e64a01389765d6586aa6c68"
+    },
+    "results/metrics.csv": {
+      "source_file": "metrics.csv",
+      "sha256": "7019ebd5432fd6ec357a3fc630b9f3e2bc55e9c434411bfae5a6b8d5d8b09818"
+    },
+    "results/metrics.json": {
+      "source_file": "metrics.json",
+      "sha256": "15afe5d1df151fcf87329d1f87b3761b35bd0c9d5ec0b27a14f7f9c2377cd9f2"
+    },
+    "results/fold_log.json": {
+      "source_file": "fold_log.json",
+      "sha256": "3964b887baf9e85fbd8b96276e91a4f6907394bc853567dc01cdd3481940d459"
+    },
+    "results/bootstrap_ci.json": {
+      "source_file": "bootstrap_ci.json",
+      "sha256": "fbbd88027bac932818eb2a3d672aa3abf2080c8316785563e73b2c5f3878b694"
+    },
+    "results/coverage_audit.json": {
+      "source_file": "coverage_audit.json",
+      "sha256": "9d5544c19de0e5f6c5b6b57c8bbc71c6327bc655ecfc9457064adad0762e8290"
+    },
+    "results/eye_transfer_final.joblib": {
+      "source_file": "eye_transfer_final.joblib",
+      "sha256": "ed97bb5adfce01b05c0346ea594f2bb916e13b1910036a12bbd31b249b6491d9"
+    },
+    "results/metadata.json": {
+      "source_file": "metadata.json",
+      "sha256": "722c6adccaa4b81413cc9927fea11b4f3c59467fe0b7f06d53178c71f7475f65"
+    },
+    "results/refit_predictions_NOT_validation.csv": {
+      "source_file": "refit_predictions_NOT_validation.csv",
+      "sha256": "988cdb139a8b3755197c1f316cc738c2ade5defa01638a7bf3ee86924328104e"
+    },
+    "results/predictions.csv": {
+      "source_file": "oof_predictions.csv",
+      "sha256": "371d058791516cdde975ff68913589d7190ecf84cf44b1874f1b095f6b080772"
+    },
+    "results/protocol.json": {
+      "source_file": "protocol.json",
+      "sha256": "2bd138f0487c2761038d8da2e4876233e2bc84be375de735031678c552dc8780"
+    },
+    "examples/CTFA1996_HZT.json": {
+      "source_file": "examples/CTFA1996_HZT.json",
+      "sha256": "66ba13b61bbab6fee97b5a89a746691a80d9b3cd266a9082bb6c6fac294e2d6a"
+    }
+  }
+}

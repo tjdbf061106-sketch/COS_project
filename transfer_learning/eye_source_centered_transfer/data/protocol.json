@@ -1,0 +1,58 @@
+{
+  "schema": "eye-transfer-reconstruction-v1",
+  "method": "source_centered_transfer",
+  "original_artifacts_available": false,
+  "original_13_ingredient_mapping_available": false,
+  "source_model_sha256": "5d5c0532cd12fd00927c9564ee28dc9c95a8bb396a049c705c77dcafaf5b28e5",
+  "candidate_study": "Gettings 1996",
+  "quantity_tolerance_percent_points": 0.11,
+  "target": "in vivo undiluted EPA I/II=1, III/IV=0; never HET-CAM 10% classification",
+  "mapping_sha256": "c84dee628fa76f4340b5bd15e987ab4ea5da481a75040bd320f64004ddcfdc30",
+  "loss": "mean(class_weight * (logaddexp(0, logit)-y*logit)) + 0.5*lambda*||theta-anchor||^2",
+  "class_weight": "n_training/(2*n_class), recomputed within each fold",
+  "lambda": 1.0,
+  "penalize_intercept": true,
+  "preprocessing": "frozen source imputer/scaler; never fitted on target data",
+  "grouping": "identical pooled feature vectors rounded to 12 decimals, with a fixed NaN sentinel",
+  "evaluation": "leave-one-feature-group-out; only held-out rows contribute OOF scores",
+  "final_fit": "one new coefficient vector fitted on all 16 target rows after OOF evaluation",
+  "threshold": 0.5,
+  "optimizer": {
+    "method": "L-BFGS-B",
+    "maxiter": 10000,
+    "ftol": 1e-14,
+    "gtol": 1e-08,
+    "maxls": 50
+  },
+  "bootstrap": {
+    "group_resamples": 5000,
+    "seed": 20261110,
+    "refit": false
+  },
+  "source_overlap": "unresolved; no independent external-validation claim",
+  "reference_values_not_training_targets": {
+    "n": 16,
+    "groups": 15,
+    "negative": 5,
+    "positive": 11,
+    "correct": 13,
+    "MCC_rounded": 0.545,
+    "ROC_AUC_rounded": 0.764,
+    "confusion_matrix": [
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        10
+      ]
+    ]
+  },
+  "reconstruction_assumptions": "Original mapping, source script, fold coefficients, exact loss normalization and optimizer settings unavailable. Whitelist and weighted-mean loss are new explicit choices, not recovered facts. No metric-driven selection.",
+  "source_model_file": "source_model/eye_A_final.joblib",
+  "source_model_format": "eye-A-grouped-v1",
+  "source_model_training_rows": 673,
+  "source_model_evaluation_unique_rows": 673,
+  "comparison_design": "Change only the source bundle to the all-673-evaluated final refit; retain the 16 target rows, 13-entry mapping, feature recipe, 15 groups, optimizer, lambda, 0.5 transfer threshold, and bootstrap seed."
+}

@@ -1,0 +1,62 @@
+{
+  "format": "eye-source-centered-transfer-reconstruction-v1",
+  "created_at": "2026-11-10T11:11:03.538546+00:00",
+  "role": "all_16_target_rows_refit_for_prediction",
+  "method": "source_centered_transfer",
+  "training_rows": 16,
+  "feature_groups": 15,
+  "class_counts": {
+    "negative": 5,
+    "positive": 11
+  },
+  "n_features": 2265,
+  "threshold": 0.5,
+  "source_model_sha256": "5d5c0532cd12fd00927c9564ee28dc9c95a8bb396a049c705c77dcafaf5b28e5",
+  "source_model_file": "source_model/eye_A_final.joblib",
+  "source_model_training_rows": 673,
+  "source_model_evaluation_unique_rows": 673,
+  "mapping_sha256": "c84dee628fa76f4340b5bd15e987ab4ea5da481a75040bd320f64004ddcfdc30",
+  "protocol_sha256": "2bd138f0487c2761038d8da2e4876233e2bc84be375de735031678c552dc8780",
+  "original_model_recovered": false,
+  "original_mapping_recovered": false,
+  "rounded_reference_metrics_match": false,
+  "oof_evaluation": {
+    "n": 16,
+    "correct": 14,
+    "accuracy": 0.875,
+    "MCC": 0.7125253031944253,
+    "ROC_AUC": 0.7636363636363637,
+    "balanced_accuracy": 0.8,
+    "threshold": 0.5,
+    "confusion_matrix": [
+      [
+        3,
+        2
+      ],
+      [
+        0,
+        11
+      ]
+    ]
+  },
+  "evaluation_scope": "target-internal grouped OOF; not an independent test of final refit",
+  "source_training_overlap": "unresolved",
+  "assumptions": "Original mapping, source script, fold coefficients, exact loss normalization and optimizer settings unavailable. Whitelist and weighted-mean loss are new explicit choices, not recovered facts. No metric-driven selection.",
+  "environment": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "joblib": "1.5.3",
+    "rdkit": "2025.9.6",
+    "threadpoolctl": "3.5.0"
+  },
+  "python": "3.14.6",
+  "final_optimization": {
+    "success": true,
+    "iterations": 27,
+    "loss": 0.6216232361562236,
+    "gradient_max_abs": 1.6765196092505263e-08,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  }
+}

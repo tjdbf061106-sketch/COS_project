@@ -1,0 +1,78 @@
+{
+  "source_centered_transfer": {
+    "n": 16,
+    "correct": 14,
+    "accuracy": 0.875,
+    "MCC": 0.7125253031944253,
+    "ROC_AUC": 0.7636363636363637,
+    "balanced_accuracy": 0.8,
+    "threshold": 0.5,
+    "confusion_matrix": [
+      [
+        3,
+        2
+      ],
+      [
+        0,
+        11
+      ]
+    ]
+  },
+  "zero_centered_control": {
+    "n": 16,
+    "correct": 14,
+    "accuracy": 0.875,
+    "MCC": 0.7125253031944253,
+    "ROC_AUC": 0.7818181818181817,
+    "balanced_accuracy": 0.8,
+    "threshold": 0.5,
+    "confusion_matrix": [
+      [
+        3,
+        2
+      ],
+      [
+        0,
+        11
+      ]
+    ]
+  },
+  "frozen_source": {
+    "n": 16,
+    "correct": 11,
+    "accuracy": 0.6875,
+    "MCC": 0.0,
+    "ROC_AUC": 0.6909090909090909,
+    "balanced_accuracy": 0.5,
+    "threshold": 0.48345327423625106,
+    "confusion_matrix": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        11
+      ]
+    ]
+  },
+  "frozen_source_at_0.5": {
+    "n": 16,
+    "correct": 11,
+    "accuracy": 0.6875,
+    "MCC": 0.0,
+    "ROC_AUC": 0.6909090909090909,
+    "balanced_accuracy": 0.5,
+    "threshold": 0.5,
+    "confusion_matrix": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        11
+      ]
+    ]
+  }
+}

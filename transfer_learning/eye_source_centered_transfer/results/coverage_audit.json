@@ -1,0 +1,1270 @@
+[
+  {
+    "formulation_id": "CTFA1996_HZA",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 53.86,
+    "unmapped_pct": 46.14,
+    "mapped_nonwater_pct": 0.0,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 1,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 53.86,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium lauryl sulfate (30%)",
+        "amount_pct": 25.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Disodium laureth sulfocuccinate (40%)",
+        "amount_pct": 15.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Lauramide DEA",
+        "amount_pct": 0.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Butylene glucol",
+        "amount_pct": 5.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methyl and propylparabens",
+        "amount_pct": 0.25,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Carageenan",
+        "amount_pct": 0.35,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methyl and methylchloroisothiazolinone",
+        "amount_pct": 0.04,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZC",
+    "reported_total_pct": 100.02,
+    "mapped_pct": 18.537,
+    "unmapped_pct": 81.483,
+    "mapped_nonwater_pct": 4.499999999999998,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 3,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 14.037,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Laurylamidopropyl betaine (30%)",
+        "amount_pct": 60.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cetrimonium chloride",
+        "amount_pct": 16.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "PEG-3 cocamide",
+        "amount_pct": 4.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 3.5,
+        "mapped_id": "citric_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium chloride",
+        "amount_pct": 1.0,
+        "mapped_id": "sodium_chloride",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Ditallowdimonium chloride (73%)",
+        "amount_pct": 0.7,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Lauryl alcohol",
+        "amount_pct": 0.25,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methyl and chloroisothiazolinone (1.5%)",
+        "amount_pct": 0.033,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZD",
+    "reported_total_pct": 100.005,
+    "mapped_pct": 54.839999999999996,
+    "unmapped_pct": 45.165,
+    "mapped_nonwater_pct": 0.7199999999999989,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 6,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 54.12,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium laureth sulfate (26%)",
+        "amount_pct": 38.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocamide DEA",
+        "amount_pct": 3.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocamide propyl betaine (37%)",
+        "amount_pct": 1.75,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Disodium EDTA",
+        "amount_pct": 0.05,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.15,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.1,
+        "mapped_id": "propylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.25,
+        "mapped_id": "citric_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "FD&C Yellow No. 5 (1%)",
+        "amount_pct": 0.05,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "D&C Red No. 33 (0.5%)",
+        "amount_pct": 0.015,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "DMDM hydantoin (54%)",
+        "amount_pct": 0.3,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "BHT",
+        "amount_pct": 0.05,
+        "mapped_id": "bht",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium glutamate",
+        "amount_pct": 2.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium choride",
+        "amount_pct": 0.17,
+        "mapped_id": "sodium_chloride",
+        "status": "mapped_candidate"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZE",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 60.224,
+    "unmapped_pct": 39.776,
+    "mapped_nonwater_pct": 0.25,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 3,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 59.974,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Acylglutamate CT-12 (30%)",
+        "amount_pct": 15.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocoamphodiacetate (50%)",
+        "amount_pct": 15.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium nonoxynol-6 phosphate (88.5%)",
+        "amount_pct": 6.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Quaternium-26 (58%)",
+        "amount_pct": 1.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "PEG-120-methyl glucose dioleate",
+        "amount_pct": 1.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.1,
+        "mapped_id": "citric_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium citrate",
+        "amount_pct": 0.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Disodium EDTA",
+        "amount_pct": 0.05,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.15,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "DMDM hydentoin (55%)",
+        "amount_pct": 0.2,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "FD&C Yellow No. 10 (1%)",
+        "amount_pct": 0.001,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "D&C Blue No. 1 (0.746%)",
+        "amount_pct": 0.025,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZF",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 57.653,
+    "unmapped_pct": 42.347,
+    "mapped_nonwater_pct": 0.0,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 1,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 57.653,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium laureth (2EO) sulfate (28%)",
+        "amount_pct": 21.43,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Disodium laureth-3-sulfosuccinate (40%)",
+        "amount_pct": 9.09,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocamidopropyl betaine (30%)",
+        "amount_pct": 10.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Lauramide DEA",
+        "amount_pct": 1.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Kathon CG (1.5%)",
+        "amount_pct": 0.067,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Tetrasodium EDTA (30%)",
+        "amount_pct": 0.26,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZG",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 48.63,
+    "unmapped_pct": 51.37,
+    "mapped_nonwater_pct": 0.20000000000000284,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 2,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 48.43,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium laureth sulfate (28%)",
+        "amount_pct": 20.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium lauryl sulfate (30%)",
+        "amount_pct": 25.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Lauramide-DEA",
+        "amount_pct": 5.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Hydroxyethyl tallow glycinate",
+        "amount_pct": 1.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.2,
+        "mapped_id": "citric_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "PEG-45M",
+        "amount_pct": 0.2,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methyl and propylparabens",
+        "amount_pct": 0.13,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methyl and chloromethyl-isothiazolinone",
+        "amount_pct": 0.04,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZH",
+    "reported_total_pct": 100.099,
+    "mapped_pct": 97.54200000000002,
+    "unmapped_pct": 2.556999999999988,
+    "mapped_nonwater_pct": 1.3000000000000114,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 4,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 96.242,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium laureth sulfate (21%)",
+        "amount_pct": 0.9,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocoamphocarboxyglycinate (40%)",
+        "amount_pct": 1.1,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Hexylene glycol",
+        "amount_pct": 1.0,
+        "mapped_id": "hexylene_glycol",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Dipotassium phosphate",
+        "amount_pct": 0.394,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Potassium phosphate",
+        "amount_pct": 0.102,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Allantoin",
+        "amount_pct": 0.05,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methyl paraben",
+        "amount_pct": 0.15,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "EDTA",
+        "amount_pct": 0.15,
+        "mapped_id": "edta",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Rose water",
+        "amount_pct": 0.008,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Thimerosal",
+        "amount_pct": 0.003,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZI",
+    "reported_total_pct": 100.1,
+    "mapped_pct": 44.7,
+    "unmapped_pct": 55.39999999999999,
+    "mapped_nonwater_pct": 0.7000000000000028,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 4,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 44.0,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium laureth sulfate (30%)",
+        "amount_pct": 50.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocamide MEA",
+        "amount_pct": 5.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium chloride",
+        "amount_pct": 0.4,
+        "mapped_id": "sodium_chloride",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Disodium EDTA",
+        "amount_pct": 0.2,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Imidizolidinyl urea",
+        "amount_pct": 0.2,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.2,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Benzoic acid",
+        "amount_pct": 0.1,
+        "mapped_id": "benzoic_acid",
+        "status": "mapped_candidate"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZL",
+    "reported_total_pct": 100.001,
+    "mapped_pct": 50.535999999999994,
+    "unmapped_pct": 49.46500000000001,
+    "mapped_nonwater_pct": 2.7759999999999962,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 7,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 47.76,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium laureth sulfate (26%)",
+        "amount_pct": 46.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocamido propyl betaine (30%)",
+        "amount_pct": 2.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium chloride",
+        "amount_pct": 2.4,
+        "mapped_id": "sodium_chloride",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Glycol monostearate",
+        "amount_pct": 0.4,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Color solution",
+        "amount_pct": 0.3,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "DMDM hydantoin (54%)",
+        "amount_pct": 0.25,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.2,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.1,
+        "mapped_id": "propylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "BHT",
+        "amount_pct": 0.05,
+        "mapped_id": "bht",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Aloe vera gel",
+        "amount_pct": 0.015,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.016,
+        "mapped_id": "citric_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Tetrasodium EDTA",
+        "amount_pct": 0.01,
+        "mapped_id": "tetrasodium_edta",
+        "status": "mapped_candidate"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZN",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 44.506,
+    "unmapped_pct": 55.494,
+    "mapped_nonwater_pct": 0.125,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 2,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 44.381,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium laureth (2EO) sulfate (28%)",
+        "amount_pct": 43.634,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "cocamidopropyl betaine (30%)",
+        "amount_pct": 11.76,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Tetrasodium EDTA",
+        "amount_pct": 0.125,
+        "mapped_id": "tetrasodium_edta",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Formalin",
+        "amount_pct": 0.1,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZQ",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 71.86000000000001,
+    "unmapped_pct": 28.139999999999986,
+    "mapped_nonwater_pct": 2.930000000000007,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 5,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 68.93,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Lauramphocarboxyglycinate (25%)",
+        "amount_pct": 10.4,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium trideceth sulfate (16%)",
+        "amount_pct": 10.6,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "TEA-lauryl sulfate (40%)",
+        "amount_pct": 3.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Lauramide DEA",
+        "amount_pct": 0.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "PEG-150 distearate",
+        "amount_pct": 2.8,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Propylene glycol",
+        "amount_pct": 1.4,
+        "mapped_id": "propylene_glycol",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Hexylene glycol",
+        "amount_pct": 1.05,
+        "mapped_id": "hexylene_glycol",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.28,
+        "mapped_id": "citric_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Diazolidinyl urea",
+        "amount_pct": 0.2,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.2,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium citrate",
+        "amount_pct": 0.14,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZR",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 35.22,
+    "unmapped_pct": 64.78,
+    "mapped_nonwater_pct": 2.25,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 4,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 32.97,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium cocoyl isethionate",
+        "amount_pct": 20.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium lauroyl sarcosinate (30%)",
+        "amount_pct": 25.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "PPG-5-ceteth-10 phosphate",
+        "amount_pct": 4.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Linoleamide DEA",
+        "amount_pct": 2.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sorbitol (70%)",
+        "amount_pct": 2.75,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Glycol stearate",
+        "amount_pct": 5.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Glycerin",
+        "amount_pct": 2.0,
+        "mapped_id": "glycerin",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Diglycerol",
+        "amount_pct": 2.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cetearyl alcohol",
+        "amount_pct": 2.75,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Mineral oil",
+        "amount_pct": 0.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.15,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.1,
+        "mapped_id": "propylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Trisodium EDTA",
+        "amount_pct": 0.1,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Beeswax",
+        "amount_pct": 0.1,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Ceresin",
+        "amount_pct": 0.06,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium borate",
+        "amount_pct": 0.02,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZS",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 27.817,
+    "unmapped_pct": 72.18299999999999,
+    "mapped_nonwater_pct": 0.25,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 3,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 27.567,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium lauroyl sarcosinate (30%)",
+        "amount_pct": 25.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Laurimidopropyl betaine (30%)",
+        "amount_pct": 25.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocamidopropyl hydroxysultaine (50%)",
+        "amount_pct": 15.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Linoleamide DEA",
+        "amount_pct": 4.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Glycol stearate",
+        "amount_pct": 1.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Polyquaternium-2",
+        "amount_pct": 1.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Phosphoric acid (86.5%)",
+        "amount_pct": 0.6,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Tetrasodium EDTA",
+        "amount_pct": 0.2,
+        "mapped_id": "tetrasodium_edta",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "BHT",
+        "amount_pct": 0.05,
+        "mapped_id": "bht",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "PPG-12-buteth-16",
+        "amount_pct": 0.05,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methyl and chlorosothiazolinone (1.5%)",
+        "amount_pct": 0.033,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZT",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 40.0,
+    "unmapped_pct": 60.0,
+    "mapped_nonwater_pct": 6.149999999999999,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 6,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 33.85,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Mineral oil",
+        "amount_pct": 10.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Lauroamphocarboxyglycinate (25%)",
+        "amount_pct": 8.8,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium trideceth sulfate (16%)",
+        "amount_pct": 9.4,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Petrolatum",
+        "amount_pct": 6.6,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Isopropyl palmitate",
+        "amount_pct": 6.6,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Propylene glycol",
+        "amount_pct": 5.0,
+        "mapped_id": "propylene_glycol",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Cetyl palmitate",
+        "amount_pct": 4.4,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Glyceryl stearate and PEG-100 stearate",
+        "amount_pct": 4.4,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Aluminum silicate",
+        "amount_pct": 3.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cetyl alcohol",
+        "amount_pct": 2.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Polypropylene",
+        "amount_pct": 2.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Magnesium aluminum silicate",
+        "amount_pct": 1.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Titanium dioxide",
+        "amount_pct": 0.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Hexylene glycol",
+        "amount_pct": 0.4,
+        "mapped_id": "hexylene_glycol",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Imidazolidinyl urea",
+        "amount_pct": 0.3,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.3,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Lactic acid",
+        "amount_pct": 0.25,
+        "mapped_id": "lactic_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.2,
+        "mapped_id": "propylparaben",
+        "status": "mapped_candidate"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZU",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 41.95,
+    "unmapped_pct": 58.05,
+    "mapped_nonwater_pct": 4.0,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 3,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 37.95,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium C14-16 olefin sulfonate (36%)",
+        "amount_pct": 20.25,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium lauroyl sarcosinate",
+        "amount_pct": 20.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Cocamidopropyl hydroxysultaine",
+        "amount_pct": 8.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Propylene glycol",
+        "amount_pct": 3.0,
+        "mapped_id": "propylene_glycol",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Glycerol stearate",
+        "amount_pct": 3.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "PPG-12-PEG-50 lanolin",
+        "amount_pct": 3.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Polyquaternium-7",
+        "amount_pct": 2.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 1.0,
+        "mapped_id": "citric_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Hydrolysed animal protein",
+        "amount_pct": 1.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Polyquaternium-10",
+        "amount_pct": 0.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Quaternium-15",
+        "amount_pct": 0.2,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Aloe vera gel",
+        "amount_pct": 0.1,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  },
+  {
+    "formulation_id": "CTFA1996_HZY",
+    "reported_total_pct": 100.0,
+    "mapped_pct": 29.63,
+    "unmapped_pct": 70.37,
+    "mapped_nonwater_pct": 2.5,
+    "unreported_pct": 0.0,
+    "mapped_component_count": 5,
+    "component_audit": [
+      {
+        "name": "Water",
+        "amount_pct": 27.13,
+        "mapped_id": "water",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Sodium lauroyl sarcosinate (30%)",
+        "amount_pct": 15.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Lauramide DEA",
+        "amount_pct": 4.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "TEA-lauryl sulfate (40%)",
+        "amount_pct": 45.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Glycol distearate",
+        "amount_pct": 3.0,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Zinc pyrithione",
+        "amount_pct": 2.1,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Sodium chloride",
+        "amount_pct": 1.2,
+        "mapped_id": "sodium_chloride",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Citric acid",
+        "amount_pct": 0.9,
+        "mapped_id": "citric_acid",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Imidazolidinyl urea",
+        "amount_pct": 0.5,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      },
+      {
+        "name": "Methylparaben",
+        "amount_pct": 0.3,
+        "mapped_id": "methylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Propylparaben",
+        "amount_pct": 0.1,
+        "mapped_id": "propylparaben",
+        "status": "mapped_candidate"
+      },
+      {
+        "name": "Xanthan gum",
+        "amount_pct": 0.27,
+        "mapped_id": null,
+        "status": "excluded_unmapped"
+      }
+    ]
+  }
+]
