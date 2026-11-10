@@ -1,0 +1,5 @@
+compare,n_valid_resamples,delta_median,delta_p2.5,delta_p97.5,frac_resamples_improved
+frozen_only_anchor - option_a_raw_frozen,5000,0.0,0.0,0.0,0.0
+frozen_plus_conc - option_a_raw_frozen,5000,0.0,-0.19542318943131795,0.1923423523516881,0.4442
+frozen_plus_hlb - option_a_raw_frozen,5000,0.0435328831707148,0.0,0.1815250156126977,0.651
+frozen_plus_conc_hlb - option_a_raw_frozen,5000,0.09087101553557994,-0.016412765001264058,0.2745543179486976,0.9048

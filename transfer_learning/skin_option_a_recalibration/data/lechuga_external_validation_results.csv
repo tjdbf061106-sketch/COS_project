@@ -1,0 +1,42 @@
+﻿product1,product2,proportion,concentration_pct,mixture_type,ionic_character,HLB1,HLB2,HLB_compost,zein_number,binary_label(ZN>=200),source,all_resolved,pred_proba,pred_binary,true_binary,match
+Capryl Glucoside,,1,0.5,single,NI,13.0,,13.0,11.0,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31133333333333335,0,0,True
+Capryl Glucoside,,1,0.5,single,NI,13.0,,13.0,7.75,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31133333333333335,0,0,True
+Lauryl Glucoside,,1,0.5,single,NI,11.2,,11.2,20.0,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31533333333333335,0,0,True
+Lauryl Glucoside,,1,0.5,single,NI,11.2,,11.2,8.505,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31533333333333335,0,0,True
+Coco Glucoside,,1,0.5,single,NI,11.9,,11.9,6.6,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31733333333333336,0,0,True
+Coco Glucoside,,1,0.5,single,NI,11.9,,11.9,2.1,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31733333333333336,0,0,True
+Lauramine Oxide,,1,0.5,single,NI,24.35,,24.35,272.1,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.692,1,1,True
+Lauramine Oxide,,1,0.5,single,NI,24.35,,24.35,206.08,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.692,1,1,True
+Myristamine Oxide,,1,0.5,single,NI,23.4,,23.4,325.11,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.718,1,1,True
+Myristamine Oxide,Lauramine Oxide,1-1,0.5,binary_mixture,NINI,23.4,24.35,23.87027440143913,194.79,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.706,1,0,False
+Sodium laureth sulfate,,,0.5,single,A,,,,156.0,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.52,1,0,False
+Disodium Capryloyl Glutamate: 30% - 37%,,,0.5,single,A,,,,83.25,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31114523809523814,0,0,True
+Disodium Lauroyl Glutamate,,,0.5,single,A,,,,176.68,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.3210119047619048,0,0,True
+Sodium lauryl sulfate,,,0.5,single,A,40.0,,40.0,248.0,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.536,1,1,True
+Zinc Coco-Sulfate: 27% - 30%,,,0.5,single,A,,,,76.34,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.556,1,0,False
+Capryl Glucoside,,1,1.0,single,NI,13.0,,13.0,16.5,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31333333333333335,0,0,True
+Capryl Glucoside,,1,1.0,single,NI,13.0,,13.0,15.0,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31333333333333335,0,0,True
+Lauryl Glucoside,,1,1.0,single,NI,11.2,,11.2,31.0,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31733333333333336,0,0,True
+Lauryl Glucoside,,1,1.0,single,NI,11.2,,11.2,26.972,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31733333333333336,0,0,True
+Coco Glucoside,,1,1.0,single,NI,11.9,,11.9,21.777,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31933333333333336,0,0,True
+Coco Glucoside,,1,1.0,single,NI,11.9,,11.9,12.76,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31933333333333336,0,0,True
+Lauramine Oxide,,1,1.0,single,NI,24.35,,24.35,525.27,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.696,1,1,True
+Lauramine Oxide,,1,1.0,single,NI,24.35,,24.35,153.669478908189,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.696,1,0,False
+Myristamine Oxide,,1,1.0,single,NI,23.4,,23.4,427.43,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.722,1,1,True
+Myristamine Oxide,,1,1.0,single,NI,23.4,,23.4,321.13253101737,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.722,1,1,True
+Myristamine Oxide,Lauramine Oxide,1-1,1.0,binary_mixture,NINI,23.4,24.35,23.87027440143913,206.37270471464,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.71,1,1,True
+Sodium laureth sulfate,,,1.0,single,A,,,,317.0,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.524,1,1,True
+Disodium Capryloyl Glutamate: 30% - 37%,,,1.0,single,A,,,,178.85,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.3131452380952381,0,0,True
+Disodium Lauroyl Glutamate,,,1.0,single,A,,,,551.19,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.3210119047619048,0,1,False
+Sodium lauryl sulfate,,,1.0,single,A,40.0,,40.0,531.0,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.54,1,1,True
+Zinc Coco-Sulfate: 27% - 30%,,,1.0,single,A,,,,79.81,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.56,1,0,False
+Capryl Glucoside,,1,2.0,single,NI,13.0,,13.0,72.0,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.31933333333333336,0,0,True
+Lauryl Glucoside,,1,2.0,single,NI,11.2,,11.2,41.0,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.32533333333333336,0,0,True
+Lauramine Oxide,,1,2.0,single,NI,24.35,,24.35,384.94,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.698,1,1,True
+Myristamine Oxide,,1,2.0,single,NI,23.4,,23.4,457.26,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.724,1,1,True
+Myristamine Oxide,Lauramine Oxide,1-1,2.0,binary_mixture,NINI,23.4,24.35,23.87027440143913,367.51,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.712,1,1,True
+Sodium laureth sulfate,,,2.0,single,A,,,,533.0,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.524,1,1,True
+Disodium Capryloyl Glutamate: 30% - 37%,,,2.0,single,A,,,,328.76,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.3151452380952381,0,1,False
+Disodium Lauroyl Glutamate,,,2.0,single,A,,,,607.04,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.3230119047619048,0,1,False
+Sodium lauryl sulfate,,,2.0,single,A,40.0,,40.0,637.0,1,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.542,1,1,True
+Zinc Coco-Sulfate: 27% - 30%,,,2.0,single,A,,,,81.5,0,"Lechuga et al. 2025, ACS Omega 10(46):55868-55878 (Zenodo 10.5281/zenodo.15800001)",True,0.562,1,0,False

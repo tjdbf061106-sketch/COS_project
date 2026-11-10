@@ -1,0 +1,7 @@
+# Skin Option A 재보정 전이학습 재현용 의존성.
+# RDKit은 필요하지 않습니다(입력이 이미 벡터화된 Option A 출력 CSV).
+# 원 실험 검증 환경: Windows / Python 3.13.12.
+numpy==2.5.0
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
