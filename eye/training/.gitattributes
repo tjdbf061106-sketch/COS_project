@@ -1,0 +1,3 @@
+# Source configuration binds exact bytes; do not normalize line endings.
+* -text
+*.npy binary

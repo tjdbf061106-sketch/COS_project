@@ -1,0 +1,1 @@
+{"candidate": {"candidate_id": "lr-000", "params": {"C": 0.0001, "solver": "lbfgs", "max_iter": 5000, "tol": 0.0001}}, "threshold": 0.48345327423625106, "calibration_unique_rows": 673, "calibration_predictions": 2019, "development_only": true}

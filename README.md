@@ -2,7 +2,8 @@
 
 혼합물의 피부·눈 자극성을 예측하는 **최종 모델 실행 패키지**입니다.
 `skin/`과 `eye/model/`에 최종 모델, 예측 코드, 예제와 실행 재현검사를 제공합니다.
-학습 데이터·학습 코드·비교실험·외부 검증 산출물·백업은 포함하지 않습니다.
+Eye의 학습 재현 입력·코드는 `eye/training/`, 핵심 내부 평가 결과는 `eye/evaluation/`에 있습니다.
+Skin 학습 자료, 외부 검증 산출물, 중간 모델 및 백업은 포함하지 않습니다.
 Windows 데스크톱 앱의 소스·모델·고정 의존성·실행 및 빌드 검사는 [app/](app/README.md)에 있습니다.
 재현검사는 저장된 모델의 예측 동작을 확인하며 전체 재학습이나 화장품 성능 검증은 아닙니다.
 
@@ -41,6 +42,56 @@ python eye/model/predict.py --input eye/model/examples/single_ingredient.json
 python eye/model/predict.py --input eye/model/examples/two_component_formulation.json
 python eye/model/verify.py
 ```
+
+### Eye 학습 재현과 평가 자료
+
+- `eye/training/`: 673행 입력, 성분 연결표, 두 집계 방식의 특징 행렬, 특징 순서,
+  원본 그룹·탐색 설정, 학습·검증 코드와 고정 의존성입니다.
+- `eye/evaluation/`: 원본 실행의 모델 순위, seed·fold별 지표, OOF 예측,
+  최종 설정과 전체 재학습 참조 예측입니다. 학습 시 생성되는 결과와 구분해 보관합니다.
+- `eye/model/`: 기존 최종 모델의 예측 실행 패키지이며 변경하지 않았습니다.
+
+Eye 전용 환경에서 저장소 루트 기준으로 실행합니다.
+
+```bash
+python -m pip install -r eye/training/requirements.txt
+python eye/training/verify_published.py
+```
+
+`verify_published.py`는 원본 입력·코드 해시, 12,114개 OOF 예측의 지표·순위,
+기존 최종 모델의 673행 참조 예측을 확인합니다. 전체 학습 재실행 검사는 아닙니다.
+검증 코드는 `assert`를 사용하므로 Python의 `-O` 옵션을 사용하지 마세요.
+전체 재학습은 다음 순서로 실행합니다.
+
+```bash
+python eye/training/run_comparison.py --workers 6
+python eye/training/verify_comparison.py
+python eye/training/finalize_model.py --workers 6
+python eye/training/verify_features.py
+python eye/training/verify_final_model.py
+python eye/training/finish_package.py
+```
+
+전체 비교에는 5,490회의 모델 적합과 추가 최종 설정 탐색이 필요합니다.
+`results/`, `final_development/` 및 실행별 설정은 용량과 중복을 줄이기 위해 제외했으며,
+위 명령이 `eye/training/` 안에 새로 생성합니다. 동일 환경에서는 중단 후 재개할 수 있습니다.
+원본 코드·입력의 해시는 보존했습니다. Python/OS가 바뀌면 실행 식별자가 달라질 수 있고,
+다른 환경의 수치 일치나 모델 바이너리의 바이트 일치까지 보장하지 않습니다.
+`source_config.json`의 원본 로컬 경로는 출처 기록이며 실행 시 해당 경로를 읽지 않습니다.
+`evaluation/RESULTS.txt`의 파일 목록과 명령은 원본 전체 실행 폴더에 대한 설명입니다.
+공개 패키지는 위 디렉터리 구분과 실행 순서를 따릅니다.
+
+전체 학습 없이 입력·분할과 동작을 점검하려면 `eye/training/`에서 실행합니다.
+
+```bash
+python -c "import run_comparison as r; r.prepare()"
+python -m unittest test_protocol test_artifact_guards
+python verify_features.py
+```
+
+`prepare()`는 입력 해시·행 수·그룹 분리·특징 형태를 검사하고 실행 설정을 생성합니다.
+특징 검사는 원본 스크립트가 선택한 행에 대한 두 집계 방식의 일치 검사이며 전수 검사는 아닙니다.
+평가 결과는 방법 선택에 조건부인 내부 CV 결과이고, 독립 외부 검증이나 안전성 보증이 아닙니다.
 
 ## Skin 실행 안내
 
