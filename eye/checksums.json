@@ -1,16 +1,16 @@
 {
-  "package": "Eye A LR weighted mean inference package",
+  "package": "Eye A LR weighted mean inference package — all673 grouped evaluation",
   "files": {
     ".gitattributes": "0a2771a65853f6e5ce1dbe3c7daf45fcd7105b03e9bba50aadcf72f6bb134ce4",
+    "README.md": "3ba21c61a11510c30658164db1e3a21e5f82e0c7d7a9bb200e34c62a28710a9d",
+    "requirements-lock.txt": "fca600307328eec54ec0f1ebf4d4a68b82e3ebfce006fa39a9b44a5900a2c2e1",
+    "eye_A_final.joblib": "5d5c0532cd12fd00927c9564ee28dc9c95a8bb396a049c705c77dcafaf5b28e5",
+    "metadata.json": "6a261f4fc796c4f415162b3a45091efca77f5c5e5752795fdb71004703a3cdb4",
+    "feature_names.json": "cb4f034a7a61ee40198cb4dc950e43d3664c8303f321dc4edb782adaff03237c",
+    "predict.py": "e35d877da3e334e3b150f15022852a49a6f1ebe6129885ee23054473e02ffcea",
+    "verify.py": "0bc30d61c9601b1186e73fc0f3cdc299f0b4ca1c359a73382d04d2034b6b3fb3",
+    "smoke_test_cases.json": "5b641938a6e18e788e5327f6afa293a8860aab4a76122d2f3a521ebfd4c68473",
     "examples/single_ingredient.json": "a458dbab52530ce02078207ceefa140acf35f41ec3db46eb965a752f85b7ff19",
-    "examples/two_component_formulation.json": "0df697e2f115ce7613fdd81a612c07ff81b2bdc17a9b214385489a9a3598089a",
-    "eye_A_LR_wmean.joblib": "d71394e691ac5072e4ce900a53b47ddbb65c8685961fe2c9536411acfbbc58a2",
-    "feature_names.json": "1500757e4264c4989e46688c296f5a5621d87d47412f91fd4ed19ee9a9c4f38a",
-    "metadata.json": "4fca7229f48880ca82d03840747c644073ab4a73c8d4e958d247d6a935d254f4",
-    "predict.py": "ba86fa599c86aff2fb4759c2f08a9ef12514bd44622fdc06036c0422ea91cc7d",
-    "README.md": "10dd596f0fba8bc07f179e1b998207915764353219bb8dcf29422cfd374f33f5",
-    "requirements-lock.txt": "aed28ae5a95976a04872044377bdcf15e68edd77117495cd7758455e28d64252",
-    "smoke_test_cases.json": "14b58cff6e737d61f52147eac3e221fc7516c53f0fd0bae3e5e5319a661755e6",
-    "verify.py": "bb12b2da2d73d66c1c96e1558873a352eb3441f57c88f596369332df3f1a37cd"
+    "examples/two_component_formulation.json": "0df697e2f115ce7613fdd81a612c07ff81b2bdc17a9b214385489a9a3598089a"
   }
 }

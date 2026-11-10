@@ -8,12 +8,21 @@ import subprocess
 import sys
 import tempfile
 
+import joblib
 import numpy as np
 import pandas as pd
 
 from predict import load_bundle, predict_components, predict_features, vectorize_components
 
 ROOT=Path(__file__).resolve().parent
+
+
+def expect_value_error(function, *args):
+    try:
+        function(*args)
+    except ValueError:
+        return
+    raise AssertionError(f'{function.__name__} accepted invalid input')
 
 
 def main():
@@ -36,8 +45,27 @@ def main():
         raise ValueError('Readable metadata and model contents disagree')
     if model['threshold']!=metadata['threshold']:
         raise ValueError('Threshold mismatch')
+    required_metadata = {
+        'model': 'lr',
+        'representation': 'wmean',
+        'training_rows': 673,
+        'evaluation_unique_rows': 673,
+        'n_features': len(names),
+        'class_counts': {'negative': 548, 'positive': 125},
+        'parameters': {'C': 0.0001, 'solver': 'lbfgs', 'max_iter': 5000, 'tol': 0.0001},
+        'comparison_operator': '>=',
+    }
+    for key, value in required_metadata.items():
+        if metadata.get(key) != value:
+            raise ValueError(f'Unexpected all673 metadata: {key}')
+    if model['model'] != metadata['model'] or model['representation'] != metadata['representation']:
+        raise ValueError('Bundle and metadata model configuration disagree')
+    estimator_parameters = model['pipeline'].steps[-1][1].get_params()
+    for key, value in metadata['parameters'].items():
+        if estimator_parameters.get(key) != value:
+            raise ValueError(f'Fitted model parameter mismatch: {key}')
     fixture=json.loads((ROOT/'smoke_test_cases.json').read_text(encoding='utf-8'))
-    if fixture['source_model_sha256']!=checks['files']['eye_A_LR_wmean.joblib']:
+    if fixture['source_model_sha256']!=checks['files']['eye_A_final.joblib']:
         raise ValueError('Regression fixtures refer to a different model')
     frames=[]
     for case in fixture['cases']:
@@ -58,10 +86,42 @@ def main():
     expected=predict_features(model,combined)
     np.testing.assert_allclose(predict_features(model,combined[names[::-1]]).eye_A_score,
                                expected.eye_A_score,rtol=0,atol=1e-12)
+    expect_value_error(predict_features, model, combined.drop(columns=names[0]))
+    expect_value_error(predict_features, model, pd.concat([combined, combined[[names[0]]]], axis=1))
+    for value in (np.inf, -np.inf):
+        infinite = combined.copy()
+        infinite.iloc[0, 0] = value
+        expect_value_error(predict_features, model, infinite)
+    expect_value_error(predict_features, model, combined.iloc[:0])
+    expect_value_error(predict_features, model, np.empty((0, len(names))))
+    boundary_frame = combined.iloc[:1]
+    boundary_score = float(predict_features(model, boundary_frame).eye_A_score.iloc[0])
+    for cutoff, label in [(np.nextafter(boundary_score, -np.inf), 1),
+                          (boundary_score, 1),
+                          (np.nextafter(boundary_score, np.inf), 0)]:
+        boundary_model = dict(model, threshold=cutoff)
+        actual = predict_features(boundary_model, boundary_frame).eye_A_prediction.iloc[0]
+        if actual != label:
+            raise AssertionError('Decision cutoff must use >=, including exact equality')
     # Only these two files are available to the fresh isolated inference process.
     with tempfile.TemporaryDirectory(prefix='eye_final_portable_') as temporary:
         temporary=Path(temporary)
-        for name in ['predict.py','eye_A_LR_wmean.joblib']:
+        for key, value in [('format', 'eye-A-lr-wmean-v1'),
+                           ('format', 'unknown'),
+                           ('model', 'rf'),
+                           ('representation', 'max')]:
+            invalid_bundle = dict(model)
+            invalid_bundle[key] = value
+            invalid_path = temporary/'invalid.joblib'
+            joblib.dump(invalid_bundle, invalid_path)
+            expect_value_error(load_bundle, invalid_path)
+        for key in ('format', 'model', 'representation'):
+            invalid_bundle = dict(model)
+            del invalid_bundle[key]
+            joblib.dump(invalid_bundle, invalid_path)
+            expect_value_error(load_bundle, invalid_path)
+        invalid_path.unlink()
+        for name in ['predict.py','eye_A_final.joblib']:
             shutil.copyfile(ROOT/name,temporary/name)
         combined.to_csv(temporary/'input.csv',index=False)
         command=[sys.executable,'-I',str(temporary/'predict.py'),'--input','input.csv','--output','output.csv']

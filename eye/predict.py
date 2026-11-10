@@ -9,13 +9,17 @@ import joblib
 import numpy as np
 import pandas as pd
 
-DEFAULT_MODEL = Path(__file__).resolve().parent / 'eye_A_LR_wmean.joblib'
+DEFAULT_MODEL = Path(__file__).resolve().parent / 'eye_A_final.joblib'
 
 
 def load_bundle(path=DEFAULT_MODEL):
     bundle = joblib.load(path)
-    if bundle['format'] != 'eye-A-lr-wmean-v1':
+    if not isinstance(bundle, dict) or bundle.get('format') != 'eye-A-grouped-v1':
         raise ValueError('Unsupported model bundle')
+    if bundle.get('model') != 'lr':
+        raise ValueError('Unsupported model; expected lr')
+    if bundle.get('representation') != 'wmean':
+        raise ValueError('Unsupported aggregation; expected wmean')
     if bundle['pipeline'].n_features_in_ != len(bundle['feature_names']):
         raise ValueError('Model and feature schema disagree')
     if list(bundle['pipeline'].classes_) != [0, 1]:
