@@ -1,7 +1,7 @@
 # COS Project — Skin / Eye 최종 모델
 
 혼합물의 피부·눈 자극성을 예측하는 **최종 모델 실행 패키지**입니다.
-`skin/`과 `eye/`에 최종 모델, 예측 코드, 예제와 실행 재현검사를 제공합니다.
+`skin/`과 `eye/model/`에 최종 모델, 예측 코드, 예제와 실행 재현검사를 제공합니다.
 학습 데이터·학습 코드·비교실험·외부 검증 산출물·백업은 포함하지 않습니다.
 Windows 데스크톱 앱의 소스·모델·고정 의존성·실행 및 빌드 검사는 [app/](app/README.md)에 있습니다.
 재현검사는 저장된 모델의 예측 동작을 확인하며 전체 재학습이나 화장품 성능 검증은 아닙니다.
@@ -22,24 +22,24 @@ Windows 10/11 x64용이며 Python과 피부·눈 분석 엔진이 포함되어 �
 | 최종 모델 | RandomForest | LogisticRegression |
 | 성분 집계 | 함량 가중평균 | 함량 가중평균 |
 | 양성 라벨 | EPA I·II·III | EPA I·II |
-| 의존성 | `requirements.txt` | `eye/requirements-lock.txt` |
+| 의존성 | `requirements.txt` | `eye/model/requirements-lock.txt` |
 | 검증 Python | 3.13.12 | 3.14.6 |
-| 실행검사 | `python skin/verify.py` | `python eye/verify.py` |
+| 실행검사 | `python skin/verify.py` | `python eye/model/verify.py` |
 
 **두 패키지는 NumPy·RDKit 버전이 다르므로 별도 가상환경에서 사용하세요.**
 루트 `requirements.txt`는 기존 skin 전용입니다.
 
 ## Eye 실행 안내
 
-[Eye 설치·입력 형식·출력 해석·재현검사](eye/README.md)를 참고하세요.
+[Eye 설치·입력 형식·출력 해석·재현검사](eye/model/README.md)를 참고하세요.
 현재 Eye는 `최종/최최종모델`의 all673 버전으로, 673행 전체를 내부 CV로 평가한 뒤 673행으로 재학습했습니다.
 이전 버전도 학습은 673행이었으나 평가는 606행이었습니다. 현재 성능은 방법 선택에 조건부인 내부 CV 추정치이며 독립 외부 시험 결과가 아닙니다.
 Eye 환경을 설치한 후 저장소 루트에서 실행합니다.
 
 ```bash
-python eye/predict.py --input eye/examples/single_ingredient.json
-python eye/predict.py --input eye/examples/two_component_formulation.json
-python eye/verify.py
+python eye/model/predict.py --input eye/model/examples/single_ingredient.json
+python eye/model/predict.py --input eye/model/examples/two_component_formulation.json
+python eye/model/verify.py
 ```
 
 ## Skin 실행 안내

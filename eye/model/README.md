@@ -12,12 +12,12 @@ skin과 NumPy·RDKit 버전이 다르므로 **eye 전용 가상환경**에 설�
 저장소 루트의 `requirements.txt`는 skin용입니다.
 
 ```powershell
-python -m venv eye/.venv
-eye/.venv/Scripts/python -m pip install -r eye/requirements-lock.txt
-eye/.venv/Scripts/python eye/verify.py
+python -m venv eye/model/.venv
+eye/model/.venv/Scripts/python -m pip install -r eye/model/requirements-lock.txt
+eye/model/.venv/Scripts/python eye/model/verify.py
 ```
 
-Linux/macOS에서는 `eye/.venv/Scripts/python` 대신 `eye/.venv/bin/python`을 사용합니다.
+Linux/macOS에서는 `eye/model/.venv/Scripts/python` 대신 `eye/model/.venv/bin/python`을 사용합니다.
 아래 `python` 명령은 eye 환경의 Python을 가리킵니다.
 다른 운영체제에서의 수치 일치는 별도 확인이 필요합니다.
 
@@ -26,8 +26,8 @@ Linux/macOS에서는 `eye/.venv/Scripts/python` 대신 `eye/.venv/bin/python`을
 skin과 같은 `components / canonical_smiles / amount_pct` JSON 형식을 받습니다.
 
 ```bash
-python eye/predict.py --input eye/examples/single_ingredient.json
-python eye/predict.py --input eye/examples/two_component_formulation.json
+python eye/model/predict.py --input eye/model/examples/single_ingredient.json
+python eye/model/predict.py --input eye/model/examples/two_component_formulation.json
 ```
 
 ```json
@@ -48,14 +48,14 @@ python eye/predict.py --input eye/examples/two_component_formulation.json
 JSON 결과는 표준 출력으로 반환됩니다. 파일로 저장하려면 새 경로를 지정합니다.
 
 ```bash
-python eye/predict.py --input eye/examples/two_component_formulation.json --output eye_result.json
+python eye/model/predict.py --input eye/model/examples/two_component_formulation.json --output eye_result.json
 ```
 
 원본 코드의 벡터화 CSV 입력도 지원합니다. `feature_names.json`의 2,265개 열을 포함해야 하며,
 열 순서는 이름으로 정렬합니다. `formulation_id`가 있으면 결과에 보존합니다.
 
 ```bash
-python eye/predict.py --input input_features.csv --output eye_predictions.csv
+python eye/model/predict.py --input input_features.csv --output eye_predictions.csv
 ```
 
 다른 체크포인트는 `--model` 또는 `--checkpoint`로 지정할 수 있습니다.
@@ -111,7 +111,7 @@ LR·RF·XGB와 wmean·max의 조합인 6개 방법을 비교하고 MCC 기준으
 ## 재현검사
 
 ```bash
-python eye/verify.py
+python eye/model/verify.py
 ```
 
 파일 SHA-256, 고정 의존성 버전, 체크포인트와 메타데이터·특징 순서의 일치를 확인합니다.
@@ -128,7 +128,7 @@ all673 원본의 모델·특징 계산·점수 계산을 사용하며, skin과 �
 ## 파일 구성
 
 ```text
-eye/
+eye/model/
   .gitattributes
   README.md
   requirements-lock.txt
