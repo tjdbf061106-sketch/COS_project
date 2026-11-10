@@ -1,8 +1,21 @@
-# COS Lab 앱 재현 패키지
+# COS Lab 데스크톱 앱
 
 원료명/CAS 또는 SMILES와 함량(%)을 입력해 피부·눈 자극 모델을 실행하는 Windows 데스크톱 앱입니다. 최신 COS Lab 0.3.0의 화면, 모델, 참고자료, 시연 예제와 실행·빌드 검사를 포함합니다. 이 `app/` 폴더만 따로 복사해도 실행할 수 있습니다.
 
-## 설치와 실행
+## 간편 설치
+
+**[Windows 설치용 ZIP 다운로드](https://github.com/tjdbf061106-sketch/COS_project/releases/download/coslab-v0.3.0/COSLab-0.3.0-Windows.zip)** · [릴리스 페이지](https://github.com/tjdbf061106-sketch/COS_project/releases/tag/coslab-v0.3.0)
+
+1. `COSLab-0.3.0-Windows.zip`을 원하는 위치에 **전체 압축 해제**합니다.
+2. 압축을 푼 `COSLab-0.3.0` 폴더로 이동합니다.
+3. **`Install-COSLab.bat`를 더블클릭**합니다.
+4. 설치가 끝나면 바탕화면의 **COS Lab** 바로가기를 실행합니다.
+
+Windows 10/11 x64용이며 Python과 두 분석 엔진이 포함되어 있습니다. 관리자 권한 없이 현재 사용자 계정에 설치합니다. [사용 안내](USER_GUIDE.md)를 참고하세요.
+
+아래는 소스에서 직접 실행하거나 같은 배포본을 만드는 개발·재현 방법입니다.
+
+## 소스 환경 설치
 
 Windows 10/11 x64와 인터넷이 필요합니다. 설치 스크립트가 **공식 CPython 3.14.6**을 앱 폴더 안에 준비하므로 Python을 미리 설치할 필요가 없습니다. free-threaded Python과 ARM64는 이 패키지의 대상이 아닙니다.
 

@@ -62,7 +62,7 @@ def assemble():
         shutil.copytree(source, target / "engines" / part, dirs_exist_ok=True)
     for name in ("Install-COSLab.ps1", "Install-COSLab.bat"):
         shutil.copy2(ROOT / "scripts" / name, target / name)
-    shutil.copy2(ROOT / "README.md", target / "사용안내.md")
+    shutil.copy2(ROOT / "USER_GUIDE.md", target / "사용안내.md")
     shutil.copy2(ROOT / "REPRODUCIBILITY.md", target / "REPRODUCIBILITY.md")
     shutil.copy2(ROOT / "examples" / "ingredients.csv", target / "입력예제.csv")
     shutil.copy2(ROOT / "THIRD_PARTY_NOTICES.md", target / "THIRD_PARTY_NOTICES.md")

@@ -6,6 +6,17 @@
 Windows 데스크톱 앱의 소스·모델·고정 의존성·실행 및 빌드 검사는 [app/](app/README.md)에 있습니다.
 재현검사는 저장된 모델의 예측 동작을 확인하며 전체 재학습이나 화장품 성능 검증은 아닙니다.
 
+## COS Lab 간편 설치
+
+**[Windows 설치용 ZIP 다운로드](https://github.com/tjdbf061106-sketch/COS_project/releases/download/coslab-v0.3.0/COSLab-0.3.0-Windows.zip)** · [릴리스 페이지](https://github.com/tjdbf061106-sketch/COS_project/releases/tag/coslab-v0.3.0)
+
+1. `COSLab-0.3.0-Windows.zip`을 원하는 위치에 **전체 압축 해제**합니다.
+2. 압축을 푼 `COSLab-0.3.0` 폴더로 이동합니다.
+3. **`Install-COSLab.bat`를 더블클릭**합니다.
+4. 설치가 끝나면 바탕화면의 **COS Lab** 바로가기를 실행합니다.
+
+Windows 10/11 x64용이며 Python과 피부·눈 분석 엔진이 포함되어 있습니다. 관리자 권한 없이 현재 사용자 계정에 설치합니다. [사용 안내](app/USER_GUIDE.md) · [소스와 재현 방법](app/README.md)
+
 | 구분 | Skin | Eye |
 |---|---|---|
 | 최종 모델 | RandomForest | LogisticRegression |

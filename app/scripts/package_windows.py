@@ -18,7 +18,9 @@ eye_hash = json.loads((ROOT / "eye/checksums.json").read_text(encoding="utf-8"))
 eye_threshold = json.loads((ROOT / "eye/metadata.json").read_text(encoding="utf-8"))["threshold"]
 if verified["gui"].get("eye_model_sha256") != eye_hash or verified["gui"].get("eye_threshold") != eye_threshold:
     raise RuntimeError("Release verification does not cover the current eye model and threshold.")
-shutil.copy2(ROOT / "README.md", release / "사용안내.md")
+for name in ("Install-COSLab.bat", "Install-COSLab.ps1"):
+    shutil.copy2(ROOT / "scripts" / name, release / name)
+shutil.copy2(ROOT / "USER_GUIDE.md", release / "사용안내.md")
 shutil.copy2(ROOT / "REPRODUCIBILITY.md", release / "REPRODUCIBILITY.md")
 preview = release / "미리보기"
 preview.mkdir(exist_ok=True)
