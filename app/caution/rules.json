@@ -71,19 +71,19 @@
       }
     ]
   },
-  "medication_rules_note_ko": "condition_rules는 '질환' 기준이고, medication_rules는 사용자가 따로 선택한 '병행 약물/치료' 기준입니다. interaction_type: DDI(약리학적 상호작용·효도 저하), ADR(자궹·이상반응 증폭), PHOTOTOXIC(광독성·광과민 증폭). ignore_concentration_threshold: true는 해당 태그의 농도 임계값(예: alcohol_high_conc의 15%)을 무시하고 검출 여부만으로 판정한다는 뜻입니다(예: 칼시뉴린억제 병용 시 저농도 알코올도 국소 자궹 보고).",
+  "medication_rules_note_ko": "condition_rules는 '질환' 기준이고, medication_rules는 사용자가 따로 선택한 '병행 약물/치료' 기준입니다. interaction_type: DDI(약리학적 상호작용·효도 저하), ADR(자극·이상반응 증폭), PHOTOTOXIC(광독성·광과민 증폭). ignore_concentration_threshold: true는 해당 태그의 농도 임계값(예: alcohol_high_conc의 15%)을 무시하고 검출 여부만으로 판정한다는 뜻입니다(예: 칼시뉴린억제 병용 시 저농도 알코올도 국소 자극 보고).",
   "medication_rules": {
     "isotretinoin_oral": [
-      {"tag": "topical_retinoid_cosmetic", "interaction_type": "ADR", "ignore_concentration_threshold": true, "message_ko": "경구 이소트레티노인으로 이미 피부장벽이 엇늘 상태에서 레티놀 계열 화장품까지 더하면 자궹·홍반·벗겨짐이 가중될 수 있습니다(레티노이드 중복)."},
-      {"tag": "aha_exfoliant", "interaction_type": "ADR", "message_ko": "이소트레티노인 치료 중에는 AHA 등 각질제거 성분이 상처치유 지연·과도한 자궹과 겥쳐 작용할 수 있어 임상 지침에서 중단을 권고합니다."},
-      {"tag": "bha_salicylic_acid", "interaction_type": "ADR", "message_ko": "이소트레티노인 치료 중에는 BHA(살리실산) 등 각질제거 성분 사용을 피하도록 권고됩니다(피부장벽 저하·상처치유 지연과 중첩 자궹)."},
-      {"tag": "alcohol_high_conc", "interaction_type": "ADR", "ignore_concentration_threshold": true, "message_ko": "이소트레티노인으로 인한 경피수분손실 증가 상태에서 고농도 알코올까지 더해지면 건조·자궹이 가중될 수 있습니다."},
+      {"tag": "topical_retinoid_cosmetic", "interaction_type": "ADR", "ignore_concentration_threshold": true, "message_ko": "경구 이소트레티노인으로 이미 피부장벽이 엇늘 상태에서 레티놀 계열 화장품까지 더하면 자극·홍반·벗겨짐이 가중될 수 있습니다(레티노이드 중복)."},
+      {"tag": "aha_exfoliant", "interaction_type": "ADR", "message_ko": "이소트레티노인 치료 중에는 AHA 등 각질제거 성분이 상처치유 지연·과도한 자극과 겥쳐 작용할 수 있어 임상 지침에서 중단을 권고합니다."},
+      {"tag": "bha_salicylic_acid", "interaction_type": "ADR", "message_ko": "이소트레티노인 치료 중에는 BHA(살리실산) 등 각질제거 성분 사용을 피하도록 권고됩니다(피부장벽 저하·상처치유 지연과 중첩 자극)."},
+      {"tag": "alcohol_high_conc", "interaction_type": "ADR", "ignore_concentration_threshold": true, "message_ko": "이소트레티노인으로 인한 경피수분손실 증가 상태에서 고농도 알코올까지 더해지면 건조·자극이 가중될 수 있습니다."},
       {"tag": "photosensitizing_furocoumarin", "interaction_type": "PHOTOTOXIC", "message_ko": "이소트레티노인 자체가 광과민성을 높일 수 있다고 보고되어, 베르가못오일 등 광독성 푸로쿠마린 성분과 겥칠 경우 광독성 반응(화상형 발적) 위험이 늘어날 수 있습니다."}
     ],
     "topical_retinoid_rx": [
-      {"tag": "topical_retinoid_cosmetic", "interaction_type": "ADR", "message_ko": "처방 레티노이드와 화장품의 레티놀 계열 성분이 중복되면 자궹이 가중될 수 있습니다."},
+      {"tag": "topical_retinoid_cosmetic", "interaction_type": "ADR", "message_ko": "처방 레티노이드와 화장품의 레티놀 계열 성분이 중복되면 자극이 가중될 수 있습니다."},
       {"tag": "benzoyl_peroxide", "interaction_type": "DDI", "message_ko": "벤조일퍼옥사이드는 강산화제로, 처방 트레티노인을 수 시간 내 상당부분 분해시켜 효과를 떨어뜨릴 수 있다고 보고됩니다(아다팔렌은 상대적으로 안정). 동시 사용보다는 아침/저녁 시간차 사용이 일반적으로 권장됩니다."},
-      {"tag": "aha_exfoliant", "interaction_type": "ADR", "message_ko": "처방 레티노이드 사용 중에는 AHA 등 각질제거 성분이 자궹을 가중시킬 수 있습니다."},
+      {"tag": "aha_exfoliant", "interaction_type": "ADR", "message_ko": "처방 레티노이드 사용 중에는 AHA 등 각질제거 성분이 자극을 가중시킬 수 있습니다."},
       {"tag": "photosensitizing_furocoumarin", "interaction_type": "PHOTOTOXIC", "message_ko": "처방 레티노이드 사용 중에는 광과민성이 높아져 있어, 광독성 푸로쿠마린 성분이 포함된 제품은 일광노출 시 광독성 반응 위험을 더할 수 있습니다."}
     ],
     "benzoyl_peroxide_rx": [
@@ -95,8 +95,8 @@
     ],
     "tci_topical": [
       {"tag": "alcohol_high_conc", "interaction_type": "ADR", "ignore_concentration_threshold": true, "message_ko": "타크로리무스/피메크롤리무스 도포 부위에 알코올 함유 제품을 쓰면 국소 홍조·화끘거림이 유발될 수 있다고 보고됩니다(음주 후에도 같은 부위에 유사 반응이 보고됨)."},
-      {"tag": "fragrance_named_allergen", "interaction_type": "ADR", "message_ko": "칼시뉴린억제 도포 부위는 자궹에 민감해져 있어 향료 알레르겐 포함 제품이 자궹·알레르기 반응을 더 쉬게 유발할 수 있습니다."},
-      {"tag": "anionic_surfactant_irritant", "interaction_type": "ADR", "message_ko": "임상 안내에서 칼시뉴린억제 도포 부위에 거친 세정제·각질제거제·알코올 함유 제품 사용 시 자궹·건조가 심해질 수 있다고 권고합니다."}
+      {"tag": "fragrance_named_allergen", "interaction_type": "ADR", "message_ko": "칼시뉴린억제 도포 부위는 자극에 민감해져 있어 향료 알레르겐 포함 제품이 자극·알레르기 반응을 더 쉬게 유발할 수 있습니다."},
+      {"tag": "anionic_surfactant_irritant", "interaction_type": "ADR", "message_ko": "임상 안내에서 칼시뉴린억제 도포 부위에 거친 세정제·각질제거제·알코올 함유 제품 사용 시 자극·건조가 심해질 수 있다고 권고합니다."}
     ],
     "prostaglandin_analog_drops": [
       {"tag": "benzalkonium_chloride", "interaction_type": "DDI", "message_ko": "BAK 보존 프로스타그란딘 점안액(라타노프로스트 등)을 이미 사용 중이라면, BAK가 포함된 눈가 제품을 추가로 사용할 경우 BAK 누적 노출이 늘어납니다. 일부 연구에서는 BAK와 프로스타그란딘 유사체 병용이 단독 BAK보다 안구 표면 독성을 높일 수 있다고 보고합니다."}

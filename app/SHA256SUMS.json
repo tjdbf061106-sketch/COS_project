@@ -20,7 +20,7 @@
     "caution/ingredient_tags.json": "05c1de617ad7f84e6d85c111da421cdf3ccc18b20ef092d174562770de672ee0",
     "caution/match.py": "bc85928a296a259f0a636b22cc879ff297b8a404d7ae7fae81398862b4a40cf8",
     "caution/medications.json": "9354bdf6281b051bbf91719e225f6e1d8b7661373a79b113ed2650730eaff6c5",
-    "caution/rules.json": "2c3e4810bf3577422885a9a4c263b3a8a0907da4c68a027261c758a6bdd70f2b",
+    "caution/rules.json": "66f68884712262d12b065dee59f9401507a742c5e8dcd7f4ac3567bc5800d0c0",
     "caution/verify.py": "ef8f6f286f93f9692189afa7195312598a8daa2ec04a475b106c170b2ee8f5dc",
     "desktop/__init__.py": "ad19954dc60e2c6ecca3c742ddfda07d176fe616aa6afa23ff62255bf4fe8444",
     "desktop/annotations.py": "7367ad7c654f57f52b8705f1fc061649ffd4a92939af500da6a12767000822b2",
