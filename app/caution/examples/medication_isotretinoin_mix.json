@@ -1,0 +1,11 @@
+{
+  "mixture_id": "example::medication_isotretinoin_mix",
+  "components": [
+    {"component_id": "CMP_001", "name": "Water", "canonical_smiles": "O", "amount_pct": 85.0},
+    {"component_id": "CMP_002", "name": "Retinol", "canonical_smiles": "", "amount_pct": 0.3},
+    {"component_id": "CMP_003", "name": "Alcohol denat", "canonical_smiles": "CCO", "amount_pct": 10.0},
+    {"component_id": "CMP_004", "name": "Benzoyl Peroxide", "canonical_smiles": "", "amount_pct": 4.7}
+  ],
+  "selected_conditions": ["acne_prone"],
+  "selected_medications": ["isotretinoin_oral", "topical_retinoid_rx"]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "input": "examples/single_ingredient.json",
+    "expected": {
+      "n_components_used": 1,
+      "n_components_skipped": 0,
+      "probability_class1": 0.414,
+      "threshold": 0.33,
+      "predicted_label": 1,
+      "predicted_label_meaning": "자극성 있음(EPA I/II/III 상당)",
+      "note": "참고용 추정치입니다. 화장품 외부검증이나 실제 안전성 판정이 아닙니다."
+    }
+  },
+  {
+    "input": "examples/two_component_formulation.json",
+    "expected": {
+      "n_components_used": 2,
+      "n_components_skipped": 0,
+      "probability_class1": 0.452,
+      "threshold": 0.33,
+      "predicted_label": 1,
+      "predicted_label_meaning": "자극성 있음(EPA I/II/III 상당)",
+      "note": "참고용 추정치입니다. 화장품 외부검증이나 실제 안전성 판정이 아닙니다."
+    }
+  }
+]

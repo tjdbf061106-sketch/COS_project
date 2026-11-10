@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "note_ko": "계면활성제는 '특정 성분들과 구조가 비슷한가'가 아니라 '친수성 머리(이온성/극성기) + 소수성 꼬리(긴 지방족 사슬)'라는 양친매성(amphiphile) 패턴으로 정의되는 기능적 분류입니다. 그래서 고정된 소수 예시(SLS 등)와의 최근접이웃 유사도만으로는 폴리소르베이트·베타인처럼 골격이 전혀 다른 계열을 놓칩니다. 대신 RDKit SMARTS로 머리그룹 클래스를 검출하고, 긴 지방족 사슬 길이와 결합해 점수를 냅니다. 모든 패턴은 알려진 양성/음성 예시로 검증했습니다(verify.py).",
+  "min_hydrophobic_chain_length": 8,
+  "head_groups": [
+    {
+      "id": "anionic_sulfate_ester",
+      "class": "anionic",
+      "label_ko": "황산에스터형 음이온(설페이트, 예: SLS/SLES)",
+      "smarts": "[CX4][OX2][SX4](=[OX1])(=[OX1])[OX1H1,OX1-]"
+    },
+    {
+      "id": "anionic_sulfonate",
+      "class": "anionic",
+      "label_ko": "설폰산형 음이온(예: 알킬벤젠설포네이트)",
+      "smarts": "[CX4,c][SX4](=[OX1])(=[OX1])[OX1H1,OX1-]"
+    },
+    {
+      "id": "anionic_carboxylate_salt",
+      "class": "anionic",
+      "label_ko": "카복실산염형 음이온(비누류)",
+      "smarts": "[CX3](=O)[OX1-]"
+    },
+    {
+      "id": "cationic_quat_ammonium",
+      "class": "cationic",
+      "label_ko": "4차 암모늄형 양이온(예: 세트리모늄)",
+      "smarts": "[NX4+]"
+    },
+    {
+      "id": "amphoteric_betaine_like",
+      "class": "amphoteric",
+      "label_ko": "베타인형 양쪽성(예: 코카미도프로필베타인)",
+      "smarts": "[NX4+][CH2][CX3](=O)[OX1-]"
+    },
+    {
+      "id": "nonionic_polyether",
+      "class": "nonionic",
+      "label_ko": "폴리옥시에틸렌형 비이온(예: 라우레스류)",
+      "smarts": "[CH2][CH2]O[CH2][CH2]O[CH2][CH2]"
+    }
+  ]
+}

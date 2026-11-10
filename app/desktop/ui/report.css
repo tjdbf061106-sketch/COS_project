@@ -1,0 +1,237 @@
+/* Report typography: keep the existing 43px irritation score unchanged. */
+#report-page{font-size:16px;font-weight:500;color:#263f36}
+#report-page .eyebrow{font-size:12px;font-weight:700;color:#416c59}
+#report-page .page-heading h1{font-size:34px;font-weight:750}
+#report-page .page-heading p{font-size:16px;color:#40584e;font-weight:600}
+#report-page .button{font-size:14px;font-weight:700;padding:11px 15px}
+#report-page h2{font-size:22px;font-weight:750}
+#report-page h3{font-size:18px;font-weight:700}
+#report-page .report-summary span{font-size:14px;font-weight:650;color:#496052}
+#report-page .report-summary strong{font-size:18px;font-weight:750;color:#263f36}
+#report-page .result-heading h2{font-size:22px}
+#report-page .result-heading small{font-size:13px;font-weight:650;color:#4b6358}
+#report-page .result-label{font-size:16px;font-weight:700;color:#35553c}
+#report-page .result-label.positive{color:#80531f}
+#report-page .score small{font-size:14px;font-weight:650;color:#496052}
+#report-page .gauge-meta{font-size:13px;font-weight:600;color:#4e6253}
+#report-page .result-card p{font-size:15px;font-weight:550;color:#425a48;line-height:1.85}
+#report-page .held-reasons{font-size:16px;font-weight:650;color:#875520}
+#report-page .report-tabs{flex-wrap:wrap}
+#report-page .report-tabs button{font-size:16px;font-weight:700;color:#4b6451}
+#report-page .report-table{font-size:15px;font-weight:550}
+#report-page .report-table th{font-size:14px;font-weight:750;color:#36503e}
+#report-page .report-table code{font-size:13px;font-weight:550;color:#3e5945}
+#report-page .muted{font-size:14px;font-weight:600;color:#52694f}
+#report-page .explanation-grid h3{font-size:18px;font-weight:750;color:#31513b}
+#report-page .explanation-grid p{font-size:15px;font-weight:550;color:#405641;line-height:1.9}
+#report-page .version-item{font-size:15px;font-weight:600}
+#report-page .version-item span{color:#405541}
+#report-page .version-item code{font-size:13px;font-weight:550}
+#report-page .report-footer{font-size:13px;font-weight:600;color:#52634f}
+#report-page .empty-report p{font-size:16px;color:#425a48}
+.evidence-panel{margin-top:34px;padding-top:28px;border-top:2px solid #dbe6dd}
+.evidence-heading{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.evidence-heading h2{margin:6px 0 0}
+.evidence-heading label{min-width:245px;font-size:14px;font-weight:700;color:#3b5847}
+.evidence-heading select{font-size:15px;font-weight:600;padding:10px;max-width:340px}
+.evidence-intro,.evidence-export-note{font-size:15px;color:#405b4c;line-height:1.9;margin:16px 0 21px}
+.evidence-export-note{font-size:14px;margin-bottom:0}
+.target-grid{display:grid;grid-template-columns:minmax(255px,.8fr) minmax(0,1.5fr);gap:22px;align-items:stretch}
+.target-card{padding:24px;min-width:0}
+.evidence-kicker{font:700 11px "Segoe UI",sans-serif;letter-spacing:1.5px;color:#48755e}
+.target-card h3{margin:9px 0 0;overflow-wrap:anywhere}
+.target-amount{font-size:14px;color:#47634e;margin:5px 0 0}
+.target-image{display:block;width:100%;height:200px;object-fit:contain;margin:10px 0;background:#fff}
+.target-smiles{display:block;font-size:13px;color:#284735;overflow-wrap:anywhere;padding:12px;background:#f2f6f1;border-radius:7px}
+.descriptor-list{margin:18px 0 0;font-size:14px}
+.descriptor-list div{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid #edf1eb}
+.descriptor-list dt{color:#49634c;font-weight:600}
+.descriptor-list dd{color:#203d2d;font-weight:700;margin:0;text-align:right}
+.source-note{font-size:13px;font-weight:550;color:#536b55;line-height:1.8}
+.auxiliary-panel>h3{margin:0 0 16px}
+.auxiliary-panel>h3 span{display:inline-block;font-size:13px;color:#4c654f;margin-left:10px}
+.aux-grid{display:grid;grid-template-columns:1fr;gap:14px}
+.nearest-matches{list-style:none;padding:0;margin:12px 0;font-size:14px;color:#405b4c}
+.nearest-matches li{display:flex;justify-content:space-between;gap:12px;padding:4px 0}
+.nearest-matches li span{overflow-wrap:anywhere}
+.aux-card{border:1px solid #dbe5dc;background:#fff;border-radius:12px;padding:20px;min-width:0}
+.aux-card.hazard-aux{border-top:3px solid #ad8c5b;padding-top:18px}
+.aux-role{font-size:12px;font-weight:650;color:#50684e;display:block;margin-bottom:9px}
+#report-page .aux-card h3{font-size:18px;line-height:1.55;margin:4px 0}
+.aux-value{font:600 31px "Segoe UI",sans-serif;color:#254d3b;margin:6px 0}
+.aux-decision{font-size:13px;font-weight:750;color:#334d3c;line-height:1.8}
+.aux-decision span{display:block;font-weight:600;color:#4b6251}
+.aux-card p{font-size:13px;line-height:1.85;color:#4a6250;margin:12px 0 0}
+.aux-description{font-size:14px;line-height:1.9;color:#455e4b;margin:14px 0 0}
+.pattern-panel,.annotation-panel{padding:24px;margin-top:22px}
+.pattern-panel>h3 span{font-size:14px;font-weight:700;background:#eaf1e8;border-radius:5px;padding:3px 8px;margin-left:9px}
+.pattern-panel>p{font-size:15px;line-height:1.9;color:#405b45}
+.pattern-empty{padding:18px;background:#f4f7f1;border-radius:8px;font-size:15px;color:#40583d}
+.pattern-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:20px 0 12px}
+.pattern-image{margin:0;border:1px solid #e0e8dd;border-radius:10px;padding:12px;break-inside:avoid}
+.pattern-image img{width:100%;height:150px;object-fit:contain}
+.pattern-image figcaption strong{display:block;font-size:14px;color:#345134}
+.pattern-image figcaption span{display:block;font-size:12px;color:#4c6249;margin-top:4px}
+.pattern-table td{vertical-align:top;max-width:320px}
+.pattern-table td:first-child{width:22%}
+.pattern-table td:nth-child(2){width:30%}
+.pattern-table code{display:block;margin-top:7px;overflow-wrap:anywhere}
+.pattern-table p{font-size:14px;line-height:1.8;margin:6px 0 0;color:#42583e}
+.annotation-label{display:inline-block;background:#edf4ea;color:#3e623d;font-size:13px;font-weight:700;padding:4px 8px;border-radius:5px;margin-top:15px}
+.local-annotations ul{font-size:15px;line-height:1.9;padding-left:23px;color:#344e37}
+.local-annotations li{margin:9px 0}
+.pubchem-section{margin-top:22px;border-top:1px solid #dfe8da;padding-top:20px}
+.pubchem-heading{display:flex;justify-content:space-between;align-items:center;gap:15px}
+.pubchem-heading h4{font-size:17px;margin:0}
+.annotation-empty,.annotation-status{font-size:14px;color:#445e43}
+.pubchem-section blockquote{margin:14px 0;border-left:3px solid #a4bc93;background:#f8faf6;padding:14px 18px;break-inside:avoid}
+.pubchem-section blockquote p{font-size:14px;line-height:1.85;margin:0;overflow-wrap:anywhere}
+.pubchem-section cite{font-size:13px;font-style:normal;display:block;margin-top:10px}
+#report-page a{color:#285d44;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.evidence-source{font-size:13px;color:#4a6249;margin:20px 2px 0}
+.evidence-source>div{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:12px}
+.pubchem-section>summary,.evidence-source>summary{cursor:pointer;font-weight:650;color:#3f6c5a}
+.pubchem-section[open]>.pubchem-heading{margin-top:16px}
+.evidence-heading{margin-bottom:21px}
+.evidence-source code{font-size:11px;overflow-wrap:anywhere}
+.evidence-loading{padding:28px;display:flex;align-items:center;gap:25px}
+.evidence-loading .spinner{flex-shrink:0}
+.evidence-loading p{font-size:14px;margin:8px 0 0;color:#506a51}
+.evidence-error{padding:24px;color:#795126}
+@media(max-width:1180px){.target-grid{grid-template-columns:250px minmax(0,1fr);gap:16px}.aux-grid{gap:10px}.aux-card{padding:15px}.evidence-heading{align-items:start}.evidence-heading label{min-width:210px}.pattern-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.result-heading{flex-wrap:wrap}#report-page .result-heading small{margin-left:0;width:100%}}
+@media print{
+  /* Native QPageLayout enforces these margins in the desktop PDF export. */
+  @page{size:A4;margin:20mm}
+  #report-page{font-size:10pt;line-height:1.8;padding:0}
+  #report-page p,#report-page li{orphans:3;widows:3}
+  #report-page .page-heading{margin-bottom:8mm;display:block}
+  #report-page .page-heading h1{font-size:21pt;line-height:1.45;overflow-wrap:anywhere}
+  #report-page .page-heading p{font-size:10pt;line-height:1.8}
+  #report-page .eyebrow{font-size:8pt}
+  #report-page .report-summary{margin-bottom:8mm}
+  #report-page .report-summary>div{padding:4mm}
+  #report-page .report-summary span{font-size:9pt}
+  #report-page .report-summary strong{font-size:11pt}
+  #report-page .result-grid{gap:6mm}
+  #report-page .result-card{padding:6mm;border-radius:3mm}
+  #report-page .result-card p{font-size:10pt;line-height:1.85;margin-top:5mm}
+  #report-page .result-heading{flex-wrap:wrap;gap:3mm}
+  #report-page .result-heading h2{font-size:14pt}
+  #report-page .result-heading small{font-size:9pt;margin-left:0;width:100%}
+  #report-page .result-label{font-size:10pt;margin-top:5mm}
+  #report-page .score small{font-size:9pt}
+  #report-page .gauge-meta{font-size:8pt}
+  #report-page h2{font-size:15pt}
+  #report-page h3{font-size:12pt}
+  #report-page .report-table{font-size:9.5pt;line-height:1.8;table-layout:fixed}
+  #report-page .report-table th{font-size:9pt;padding:3.5mm 3mm}
+  #report-page .report-table td{padding:4mm 3mm;max-width:none}
+  #report-page .report-table code{font-size:8.5pt}
+  #report-page .report-table thead{display:table-header-group}
+  #report-page .table-wrap{overflow:visible}
+  #report-page .report-table tr{break-inside:avoid}
+  #report-page .tab-panel{padding:6mm;margin-top:8mm}
+  #report-page #tab-ingredients{break-inside:auto}
+  #report-page .muted{font-size:9pt}
+  .evidence-panel{break-before:page;margin:0;padding:0;border:0}
+  .evidence-heading{display:block}
+  .evidence-heading h2{margin-top:3mm}
+  .evidence-heading{margin-bottom:7mm}
+  .evidence-heading label,.pubchem-heading button{display:none!important}
+  .evidence-intro{font-size:10pt;line-height:1.85;margin:5mm 0 7mm}
+  .target-grid{grid-template-columns:minmax(0,.85fr) minmax(0,1.4fr);gap:6mm;align-items:start}
+  .target-card{padding:5mm}
+  .target-image{height:38mm;margin:4mm 0}
+  .target-amount{font-size:9pt}
+  .aux-grid{gap:4mm}
+  .aux-card{padding:4mm;break-inside:avoid}
+  #report-page .aux-card h3{font-size:11pt;line-height:1.6}
+  .nearest-matches{font-size:9pt;margin:3mm 0}
+  .nearest-matches li{padding:1mm 0}
+  .aux-value{font-size:20pt;margin:3mm 0}
+  .aux-role,.aux-decision,.aux-card p{font-size:8.5pt;line-height:1.8}
+  .aux-description{font-size:9.5pt;line-height:1.85;margin-top:5mm}
+  .auxiliary-panel>h3 span{font-size:8.5pt;margin:2mm 0;display:block}
+  .descriptor-list{font-size:9pt;margin-top:4mm}
+  .descriptor-list div{padding:2.5mm 0;display:block;break-inside:avoid}
+  .descriptor-list dd{text-align:left;margin-top:1mm}
+  .source-note{font-size:8.5pt;line-height:1.85}
+  .pattern-panel{break-before:page;margin:0;padding:0;border:0;break-inside:auto}
+  .pattern-panel>p{font-size:10pt;line-height:1.85;margin:5mm 0}
+  .pattern-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:6mm;margin:6mm 0}
+  .pattern-image{padding:4mm;border-radius:3mm}
+  .pattern-image img{height:38mm}
+  .pattern-image figcaption strong{font-size:10pt}
+  .pattern-image figcaption span{font-size:8.5pt}
+  .pattern-table p{font-size:9pt;line-height:1.85}
+  .pattern-empty{font-size:10pt;line-height:1.85;padding:5mm}
+  .annotation-panel{margin-top:8mm;padding:6mm;break-inside:avoid}
+  .pattern-panel h3,.annotation-panel h3,.pubchem-heading{break-after:avoid}
+  .local-annotations ul{font-size:10pt;line-height:1.85}
+  .local-annotations li{margin:3mm 0}
+  .annotation-label{font-size:9pt}
+  .pubchem-section{margin-top:6mm;padding-top:5mm}
+  .pubchem-section:not([open]),.evidence-source:not([open]){display:none}
+  .pubchem-section>.source-note{display:none}
+  .pubchem-heading h4{font-size:11pt}
+  .pubchem-section blockquote{margin:5mm 0;padding:4mm}
+  .pubchem-section blockquote p{font-size:9.5pt;line-height:1.85}
+  .pubchem-section cite,.annotation-empty,.annotation-status{font-size:9pt}
+  .evidence-source{font-size:8.5pt;line-height:1.8;margin-top:6mm;break-inside:avoid}
+  .evidence-source code{font-size:8pt}
+  .target-smiles{font-size:8.5pt;line-height:1.7;padding:3mm}
+  .evidence-export-note{display:none}
+  #report-page .explanation-grid{gap:6mm}
+  #report-page .explanation-grid h3{font-size:11pt}
+  #report-page .explanation-grid p{font-size:10pt;line-height:1.85}
+  #report-page .version-item{font-size:9pt;padding:4mm 0;gap:4mm}
+  #report-page .version-item span{min-width:24mm}
+  #report-page .version-item code{font-size:8pt}
+  #report-page .report-footer{font-size:8.5pt;margin-top:7mm}
+}
+
+/* 0.3.0 demo: literature caution (separate from model scores) */
+.caution-picker{display:grid;grid-template-columns:1fr 1fr;gap:18px;background:#fff;border:1px solid #dbe5dc;border-radius:12px;padding:16px 20px;margin:0 0 18px}
+.caution-picker.single-group{grid-template-columns:1fr}
+#report-page .caution-picker h3{font-size:14px;font-weight:750;color:#3b5847;margin:0 0 9px}
+.caution-options{display:flex;flex-wrap:wrap;gap:7px}
+#report-page .caution-option{display:inline-flex;align-items:center;gap:7px;margin:0;padding:6px 12px;border:1px solid #d5e0da;border-radius:999px;background:#f7faf8;color:#2c4a45;font-size:13.5px;font-weight:600;letter-spacing:0;line-height:1.4;cursor:pointer;text-align:left}
+#report-page .caution-option:hover{border-color:#8fb3a3}
+#report-page .caution-option.on{background:#e5f1eb;border-color:#45887b;color:#1d4a3f}
+.caution-option input{flex:none;width:14px;height:14px;margin:0;padding:0;accent-color:#2d6b5e}
+.caution-option small{font-size:10.5px;font-weight:600;color:#6f8a82;border:1px solid #dbe4e1;border-radius:4px;padding:0 5px;background:#fff}
+@media print{.caution-option:not(.on){display:none!important}.caution-option input{display:none}}
+@media print{.caution-picker:not(.has-selection),.caution-group:not(.has-selection){display:none!important}.caution-picker.single-selection{grid-template-columns:1fr}}
+.caution-panel{margin-top:34px;padding-top:28px;border-top:2px solid #dbe6dd}
+.caution-panel h2{margin:6px 0 0}
+.caution-intro{font-size:15px;color:#405b4c;line-height:1.9;margin:14px 0 12px}
+.caution-unmatched{font-size:15px;font-weight:700;color:#6a4b1c;background:#fbf5ea;border:1px solid #efdfc2;border-radius:9px;padding:12px 15px;line-height:1.8;margin:0 0 18px;overflow-wrap:anywhere;break-inside:avoid}
+.caution-coverage{font-size:15px;font-weight:700;color:#365747;margin:0 0 12px}
+.caution-disclaimer{font-size:14px;font-weight:600;color:#6a4b1c;background:#fbf5ea;border:1px solid #efdfc2;border-radius:9px;padding:12px 15px;line-height:1.8;margin:0 0 18px}
+.caution-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:16px}
+.caution-card{background:#fff;border:1px solid #dbe5dc;border-top:3px solid #b5683a;border-radius:12px;padding:20px;min-width:0}
+.caution-card.clear{border-top-color:#9db8a6}
+.caution-kind{font:700 11px "Segoe UI",sans-serif;letter-spacing:1px;color:#6a8476}
+#report-page .caution-card h3{margin:4px 0 10px}
+.caution-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px}
+.caution-item{border:1px solid #edf1eb;border-radius:9px;padding:12px 14px;background:#fcfdfc}
+.caution-item-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.caution-item-top strong{font-size:15px;color:#263f36}
+.caution-item p{font-size:14px;line-height:1.8;color:#405641;margin:7px 0 0}
+.caution-item p.caution-matched{font-weight:700;color:#2d4a3c}
+.caution-matched small{font-weight:600;color:#6a8476}
+.caution-badge{font-size:11.5px;font-weight:750;border-radius:5px;padding:2px 8px;white-space:nowrap;background:#eef1ef;color:#55665c}
+.caution-badge.tier-strong{background:#fbe6e1;color:#9c3a24}
+.caution-badge.tier-moderate{background:#fdf0dc;color:#94591a}
+.caution-badge.type-DDI{background:#e6edfb;color:#2f4f93}
+.caution-badge.type-ADR{background:#fbe6e1;color:#9c3a24}
+.caution-badge.type-PHOTOTOXIC{background:#f6e9fb;color:#7a3a93}
+.caution-cites{margin-top:8px;font-size:13px}
+.caution-cites summary{cursor:pointer;color:#3f6c5a;font-weight:650}
+.caution-cites ul{margin:6px 0 0;padding-left:18px}
+.caution-cites a{color:#2d6b5e;overflow-wrap:anywhere}
+.caution-none{font-size:14px;color:#405641;line-height:1.8;margin:0}
+.caution-none small{display:block;color:#6a8476}
+.caution-empty{font-size:15px;color:#4a6355;background:#f4f7f5;border-radius:9px;padding:16px}
+.caution-limit{font-size:13px;color:#5a7062;line-height:1.8;margin:14px 0 0}
+@media print{.caution-card,.caution-item{break-inside:avoid}}

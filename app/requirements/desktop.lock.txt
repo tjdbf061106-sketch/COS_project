@@ -1,0 +1,13 @@
+# Windows x64 / standard CPython 3.14. Tested on Python 3.14.6.
+# Exact PyPI wheel hashes; install with --require-hashes --only-binary=:all:.
+altgraph==0.17.5 --hash=sha256:f3a22400bce1b0c701683820ac4f3b159cd301acab067c51c653e06961600597
+packaging==26.3 --hash=sha256:d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c
+pefile==2024.8.26 --hash=sha256:76f8b485dcd3b1bb8166f1128d395fa3d87af26360c2358fb75b80019b957c6f
+pyinstaller-hooks-contrib==2026.9 --hash=sha256:fb3e67dd64122561724c48ad0366ac9e8c16e638b63bf7d85de03bf3fdbf06c3
+pyinstaller==6.22.3 --hash=sha256:500bd58c7bf7e584a8435adccbd763a0b918d5c12b08d74ff50fd79b2915458b
+PySide6==6.11.0 --hash=sha256:9092cb002ca43c64006afb2e0d0f6f51aef17aa737c33a45e502326a081ddcbc
+PySide6_Addons==6.11.0 --hash=sha256:413e6121c24f5ffdce376298059eddecff74aa6d638e94e0f6015b33d29b889e
+PySide6_Essentials==6.11.0 --hash=sha256:3b3362882ad9389357a80504e600180006a957731fec05786fced7b038461fdf
+pywin32-ctypes==0.2.3 --hash=sha256:8a1513379d709975552d202d942d9837758905c8d01eb82b8bcc30918929e7b8
+setuptools==84.2.1 --hash=sha256:ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2
+shiboken6==6.11.0 --hash=sha256:483ff78a73c7b3189ca924abc694318084f078bcfeaffa68e32024ff2d025ee1

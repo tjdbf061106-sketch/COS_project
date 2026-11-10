@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "note_ko": "조건(condition)별로 어떤 성분 태그(tag)가 주의 대상인지, 그리고 표시할 문구를 정의합니다. 이 규칙은 피부/눈 독성 모델 점수와 무관한 별도 경로이며, 두 결과는 통합하지 않고 구분해서 표시합니다.",
+  "condition_rules": {
+    "acne_prone": [
+      {
+        "tag": "comedogenic_high",
+        "message_ko": "모공을 막아 여드름을 악화시킬 수 있다고 보고된 성분이 포함되어 있습니다. 코메도제닉 등급은 동물(토끼 귀) 모델 기반이며 사람 피부·제형 내 실제 농도·배합 순서에 따라 영향이 다를 수 있습니다."
+      }
+    ],
+    "atopic_dermatitis": [
+      {
+        "tag": "fragrance_named_allergen",
+        "message_ko": "EU 화장품 규정이 개별 표기를 의무화한 향료 알레르겐입니다. 아토피피부염 환자는 접촉 알레르기 발생 보고가 많아 주의가 필요합니다."
+      },
+      {
+        "tag": "fragrance_generic_label",
+        "message_ko": "성분표에 '향료/파르펌'으로만 표기되면 내부 구성 물질을 알 수 없습니다. 아토피피부염 환자는 무향(fragrance-free) 제품을 우선 고려하는 것이 일반적으로 권장됩니다."
+      },
+      {
+        "tag": "isothiazolinone_preservative",
+        "message_ko": "MI/MCI 계열 보존제는 접촉 알레르기 '유행'으로 보고될 만큼 민감화 사례가 많고, 아토피피부염 환자에서 상대적으로 높은 민감화 연관성이 보고되었습니다."
+      },
+      {
+        "tag": "anionic_surfactant_irritant",
+        "message_ko": "SLS 등 세정 계면활성제는 피부장벽을 손상시키는 자극원으로 잘 알려져 있습니다. 다만 최근 대규모 첩포검사 연구에서는 '아토피 여부'만으로 SLS 반응성을 예측하기 어렵다는 상반된 결과도 있어 근거 수준은 '혼재'로 표기합니다."
+      },
+      {
+        "tag": "alcohol_high_conc",
+        "message_ko": "에탄올/변성알코올은 고농도(약 15%w/w 초과)에서 피부장벽 지질을 제거해 자극·건조를 유발할 수 있습니다. 저농도(약 12% 수준) 보습제는 아토피피부염 환자에서도 내약성이 양호했다는 보고가 있어, 이 입력 배합의 추정 함량이 임계값을 넘는지만 확인합니다."
+      }
+    ],
+    "contact_dermatitis_history": [
+      {
+        "tag": "fragrance_named_allergen",
+        "message_ko": "EU 화장품 규정이 개별 표기를 의무화한 향료 알레르겐입니다. 과거 접촉 알레르기 이력이 있다면 첩포검사로 확인된 원인 물질과의 교차 여부를 확인하세요."
+      },
+      {
+        "tag": "fragrance_generic_label",
+        "message_ko": "'향료/파르펌'으로만 표기된 성분은 구성 물질을 식별할 수 없어, 과거 향료 알레르기 이력이 있는 경우 특히 주의가 필요합니다."
+      },
+      {
+        "tag": "isothiazolinone_preservative",
+        "message_ko": "MI/MCI/BIT는 최근 20년간 보고된 화장품 접촉 알레르기의 주요 원인 성분군입니다."
+      },
+      {
+        "tag": "anionic_surfactant_irritant",
+        "message_ko": "세정 계면활성제는 자극성 접촉피부염의 대표적 유발 성분입니다."
+      }
+    ],
+    "dry_eye_disease": [
+      {
+        "tag": "benzalkonium_chloride",
+        "message_ko": "BAK는 각막상피 장벽 손상, 결막 술잔세포(goblet cell) 감소, 마이봄샘 손상과 연관되어 안구건조증 증상을 악화시킬 수 있다고 보고됩니다."
+      }
+    ],
+    "glaucoma_chronic_drops": [
+      {
+        "tag": "benzalkonium_chloride",
+        "message_ko": "녹내장 점안액의 약 70%가 BAK를 보존제로 포함하며, 장기·반복 노출 시 안구 표면뿐 아니라 섬유주대(trabecular meshwork)까지 손상되어 안압조절 수술 성적에 악영향을 줄 수 있다는 보고가 있습니다. 매일 여러 종류의 점안액을 쓰는 경우 BAK 누적 노출이 특히 쟁점입니다."
+      }
+    ],
+    "allergic_conjunctivitis_cl_wearer": [
+      {
+        "tag": "benzalkonium_chloride",
+        "message_ko": "BAK는 콘택트렌즈 착용자에서 비착용자보다 증상이 더 두드러진다는 보고가 있어, 눈 주변·점안 제품에서 우선 확인이 필요합니다."
+      },
+      {
+        "tag": "fragrance_named_allergen",
+        "message_ko": "눈 주변부는 피부보다 알고 투과성이 높아, 향료 알레르겐 노출 시 알레르기성 결막염·눈꿌뎀염 증상을 유발·악화시킬 수 있습니다."
+      }
+    ]
+  },
+  "medication_rules_note_ko": "condition_rules는 '질환' 기준이고, medication_rules는 사용자가 따로 선택한 '병행 약물/치료' 기준입니다. interaction_type: DDI(약리학적 상호작용·효도 저하), ADR(자궹·이상반응 증폭), PHOTOTOXIC(광독성·광과민 증폭). ignore_concentration_threshold: true는 해당 태그의 농도 임계값(예: alcohol_high_conc의 15%)을 무시하고 검출 여부만으로 판정한다는 뜻입니다(예: 칼시뉴린억제 병용 시 저농도 알코올도 국소 자궹 보고).",
+  "medication_rules": {
+    "isotretinoin_oral": [
+      {"tag": "topical_retinoid_cosmetic", "interaction_type": "ADR", "ignore_concentration_threshold": true, "message_ko": "경구 이소트레티노인으로 이미 피부장벽이 엇늘 상태에서 레티놀 계열 화장품까지 더하면 자궹·홍반·벗겨짐이 가중될 수 있습니다(레티노이드 중복)."},
+      {"tag": "aha_exfoliant", "interaction_type": "ADR", "message_ko": "이소트레티노인 치료 중에는 AHA 등 각질제거 성분이 상처치유 지연·과도한 자궹과 겥쳐 작용할 수 있어 임상 지침에서 중단을 권고합니다."},
+      {"tag": "bha_salicylic_acid", "interaction_type": "ADR", "message_ko": "이소트레티노인 치료 중에는 BHA(살리실산) 등 각질제거 성분 사용을 피하도록 권고됩니다(피부장벽 저하·상처치유 지연과 중첩 자궹)."},
+      {"tag": "alcohol_high_conc", "interaction_type": "ADR", "ignore_concentration_threshold": true, "message_ko": "이소트레티노인으로 인한 경피수분손실 증가 상태에서 고농도 알코올까지 더해지면 건조·자궹이 가중될 수 있습니다."},
+      {"tag": "photosensitizing_furocoumarin", "interaction_type": "PHOTOTOXIC", "message_ko": "이소트레티노인 자체가 광과민성을 높일 수 있다고 보고되어, 베르가못오일 등 광독성 푸로쿠마린 성분과 겥칠 경우 광독성 반응(화상형 발적) 위험이 늘어날 수 있습니다."}
+    ],
+    "topical_retinoid_rx": [
+      {"tag": "topical_retinoid_cosmetic", "interaction_type": "ADR", "message_ko": "처방 레티노이드와 화장품의 레티놀 계열 성분이 중복되면 자궹이 가중될 수 있습니다."},
+      {"tag": "benzoyl_peroxide", "interaction_type": "DDI", "message_ko": "벤조일퍼옥사이드는 강산화제로, 처방 트레티노인을 수 시간 내 상당부분 분해시켜 효과를 떨어뜨릴 수 있다고 보고됩니다(아다팔렌은 상대적으로 안정). 동시 사용보다는 아침/저녁 시간차 사용이 일반적으로 권장됩니다."},
+      {"tag": "aha_exfoliant", "interaction_type": "ADR", "message_ko": "처방 레티노이드 사용 중에는 AHA 등 각질제거 성분이 자궹을 가중시킬 수 있습니다."},
+      {"tag": "photosensitizing_furocoumarin", "interaction_type": "PHOTOTOXIC", "message_ko": "처방 레티노이드 사용 중에는 광과민성이 높아져 있어, 광독성 푸로쿠마린 성분이 포함된 제품은 일광노출 시 광독성 반응 위험을 더할 수 있습니다."}
+    ],
+    "benzoyl_peroxide_rx": [
+      {"tag": "topical_retinoid_cosmetic", "interaction_type": "DDI", "message_ko": "벤조일퍼옥사이드 제제를 사용 중이라면, 화장품에 포함된 레티놀 계열 성분이 산화·분해되어 효과가 줄어들 수 있습니다. 동시 사용보다는 적용 시간을 나누는 것이 일반적입니다."}
+    ],
+    "oral_tetracycline_antibiotic": [
+      {"tag": "photosensitizing_furocoumarin", "interaction_type": "PHOTOTOXIC", "message_ko": "독시사이클린/미노사이클린 등 테트라사이클린계 항생제는 대표적 광독성 유발 약물입니다. 광독성 푸로쿠마린 성분이 포함된 제품을 바르고 자외선에 노출되면 중증 화상형 발적(광독성 반응) 위험이 더해질 수 있습니다."},
+      {"tag": "aha_exfoliant", "interaction_type": "PHOTOTOXIC", "message_ko": "AHA 성분 자체도 자외선 민감도를 높이는 것으로 보고되어, 광독성 항생제 복용 중에는 자외선 민감도 상승이 중첩될 수 있습니다."}
+    ],
+    "tci_topical": [
+      {"tag": "alcohol_high_conc", "interaction_type": "ADR", "ignore_concentration_threshold": true, "message_ko": "타크로리무스/피메크롤리무스 도포 부위에 알코올 함유 제품을 쓰면 국소 홍조·화끘거림이 유발될 수 있다고 보고됩니다(음주 후에도 같은 부위에 유사 반응이 보고됨)."},
+      {"tag": "fragrance_named_allergen", "interaction_type": "ADR", "message_ko": "칼시뉴린억제 도포 부위는 자궹에 민감해져 있어 향료 알레르겐 포함 제품이 자궹·알레르기 반응을 더 쉬게 유발할 수 있습니다."},
+      {"tag": "anionic_surfactant_irritant", "interaction_type": "ADR", "message_ko": "임상 안내에서 칼시뉴린억제 도포 부위에 거친 세정제·각질제거제·알코올 함유 제품 사용 시 자궹·건조가 심해질 수 있다고 권고합니다."}
+    ],
+    "prostaglandin_analog_drops": [
+      {"tag": "benzalkonium_chloride", "interaction_type": "DDI", "message_ko": "BAK 보존 프로스타그란딘 점안액(라타노프로스트 등)을 이미 사용 중이라면, BAK가 포함된 눈가 제품을 추가로 사용할 경우 BAK 누적 노출이 늘어납니다. 일부 연구에서는 BAK와 프로스타그란딘 유사체 병용이 단독 BAK보다 안구 표면 독성을 높일 수 있다고 보고합니다."}
+    ],
+    "soft_contact_lens_wear": [
+      {"tag": "benzalkonium_chloride", "interaction_type": "ADR", "message_ko": "소프트 콘택트렌즈는 BAK를 흡수했다가 각막에 서서히 다시 방출할 수 있어, 비착용자보다 BAK 노출 시간이 길어지고 증상이 더 두드러질 수 있다고 보고됩니다."}
+    ]
+  }
+}

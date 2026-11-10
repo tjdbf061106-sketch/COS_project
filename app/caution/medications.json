@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "note_ko": "질환 자체가 아니라, 사용자가 '현재 병행 중인 약물/치료'를 선택하면 평가되는 항목입니다. 성분-질환 연관성과 달리, 여기 담긴 항목은 성분-약물 상호작용(DDI/약물-성분 중복 자극/광독성 중첩 등)입니다. 사용자가 조건을 선택하지 않으면 아무 것도 평가하지 않습니다.",
+  "medications": [
+    {
+      "id": "isotretinoin_oral",
+      "domain": "skin",
+      "typical_for": ["acne_prone"],
+      "label_ko": "경구 이소트레티노인(아큐탄 등) 복용 중",
+      "description_ko": "중증 여드름에 쓰이는 경구 레티노이드. 피부장벽이 전신적으로 얇아지고 상처치유가 느려지는 기간입니다."
+    },
+    {
+      "id": "topical_retinoid_rx",
+      "domain": "skin",
+      "typical_for": ["acne_prone"],
+      "label_ko": "국소 처방 레티노이드(트레티노인/아다팔렌/타자로텐) 사용 중",
+      "description_ko": "처방된 국소 레티노이드를 바르고 있는 상태."
+    },
+    {
+      "id": "benzoyl_peroxide_rx",
+      "domain": "skin",
+      "typical_for": ["acne_prone"],
+      "label_ko": "벤조일퍼옥사이드 제제 사용 중",
+      "description_ko": "과산화벤조일(OTC 또는 처방) 여드름 치료제를 바르고 있는 상태."
+    },
+    {
+      "id": "oral_tetracycline_antibiotic",
+      "domain": "skin",
+      "typical_for": ["acne_prone"],
+      "label_ko": "경구 테트라사이클린계 항생제(독시사이클린/미노사이클린) 복용 중",
+      "description_ko": "여드름·로사시아 치료에 흔히 쓰이는 광독성 항생제."
+    },
+    {
+      "id": "tci_topical",
+      "domain": "skin",
+      "typical_for": ["atopic_dermatitis"],
+      "label_ko": "국소 칼시뉴린억제제(타크로리무스/피메크로리무스) 사용 중",
+      "description_ko": "아토피피부염에 쓰이는 비스테로이드 국소 면역조절제."
+    },
+    {
+      "id": "prostaglandin_analog_drops",
+      "domain": "eye",
+      "typical_for": ["glaucoma_chronic_drops"],
+      "label_ko": "프로스타글란딘 유사체 점안액(라타노프로스트/트라보프로스트/비마토프로스트 등) 사용 중",
+      "description_ko": "1차 안압하강제로 흔히 BAK 보존제와 함께 처방됨."
+    },
+    {
+      "id": "soft_contact_lens_wear",
+      "domain": "eye",
+      "typical_for": ["allergic_conjunctivitis_cl_wearer", "dry_eye_disease"],
+      "label_ko": "소프트 콘택트렌즈 착용 중",
+      "description_ko": "렌즈 매트릭스가 보존제를 흡수·서방할 수 있는 상태."
+    }
+  ]
+}

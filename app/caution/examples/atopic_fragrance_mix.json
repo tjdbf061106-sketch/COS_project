@@ -1,0 +1,12 @@
+{
+  "mixture_id": "example::atopic_fragrance_mix",
+  "components": [
+    {"component_id": "CMP_001", "name": "Water", "canonical_smiles": "O", "amount_pct": 70.0},
+    {"component_id": "CMP_002", "name": "Alcohol denat", "canonical_smiles": "CCO", "amount_pct": 20.0},
+    {"component_id": "CMP_003", "name": "Limonene", "canonical_smiles": "", "amount_pct": 0.5},
+    {"component_id": "CMP_004", "name": "Methylisothiazolinone", "canonical_smiles": "", "amount_pct": 0.01},
+    {"component_id": "CMP_005", "name": "Sodium Lauryl Sulfate", "canonical_smiles": "", "amount_pct": 5.0},
+    {"component_id": "CMP_006", "name": "Cetyl Alcohol", "canonical_smiles": "", "amount_pct": 4.49}
+  ],
+  "selected_conditions": ["atopic_dermatitis", "acne_prone"]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "note_ko": "EU 화장품규정 Annex III(향료 알레르겐) 중 비교적 단순한 소분자 20종의 실제 canonical SMILES입니다. SMILES는 RDKit으로 파싱·분자식을 교차검증했습니다(검증 스크립트는 README 참고). 이 목록은 caution/ingredient_tags.json의 fragrance_named_allergen 태그 성분명과 1:1로 대응합니다.",
+  "compounds": [
+    {"name": "Limonene", "smiles": "CC1=CCC(CC1)C(=C)C"},
+    {"name": "Linalool", "smiles": "CC(C)=CCCC(C)(O)C=C"},
+    {"name": "Citral", "smiles": "CC(C)=CCC/C(C)=C/C=O"},
+    {"name": "Geraniol", "smiles": "CC(C)=CCC/C(C)=C/CO"},
+    {"name": "Citronellol", "smiles": "CC(C)=CCCC(C)CCO"},
+    {"name": "Eugenol", "smiles": "COc1cc(CC=C)ccc1O"},
+    {"name": "Isoeugenol", "smiles": "COc1cc(/C=C/C)ccc1O"},
+    {"name": "Cinnamal", "smiles": "O=C/C=C/c1ccccc1"},
+    {"name": "Cinnamyl alcohol", "smiles": "OC/C=C/c1ccccc1"},
+    {"name": "Hydroxycitronellal", "smiles": "O=CCC(C)CCCC(C)(C)O"},
+    {"name": "Farnesol", "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CO"},
+    {"name": "Coumarin", "smiles": "O=c1ccc2ccccc2o1"},
+    {"name": "Benzyl alcohol", "smiles": "OCc1ccccc1"},
+    {"name": "Benzyl salicylate", "smiles": "O=C(OCc1ccccc1)c1ccccc1O"},
+    {"name": "Benzyl benzoate", "smiles": "O=C(OCc1ccccc1)c1ccccc1"},
+    {"name": "Amyl cinnamal", "smiles": "CCCCC/C(C=O)=C\\c1ccccc1"},
+    {"name": "Hexyl cinnamal", "smiles": "CCCCCC/C(C=O)=C\\c1ccccc1"},
+    {"name": "Amylcinnamyl alcohol", "smiles": "CCCCC/C(=C\\c1ccccc1)CO"},
+    {"name": "Anise alcohol", "smiles": "COc1ccc(CO)cc1"},
+    {"name": "Methyl 2-octynoate", "smiles": "CCCCCC#CC(=O)OC"}
+  ]
+}

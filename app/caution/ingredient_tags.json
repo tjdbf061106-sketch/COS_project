@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "note_ko": "성분명 매칭은 정규화 후 '완전 일치'만 사용합니다(부분 문자열 포함 금지). 예: 'alcohol'은 'cetyl alcohol'(지방알코올, 자극성 아님)과 구분됩니다. SMILES 매칭은 보조 수단이며 비어 있으면 성분명만으로 판정합니다.",
+  "tags": [
+    {
+      "id": "fragrance_named_allergen",
+      "label_ko": "향료 알레르겐(EU 지정 성분)",
+      "evidence_tier": "strong",
+      "citation_ids": [
+        "eu_fragrance_allergens"
+      ],
+      "names": [
+        "limonene",
+        "d-limonene",
+        "리모넨",
+        "linalool",
+        "리날룰",
+        "citral",
+        "시트랄",
+        "geraniol",
+        "제라니올",
+        "citronellol",
+        "시트로넬롤",
+        "eugenol",
+        "유제놀",
+        "isoeugenol",
+        "이소유제놀",
+        "cinnamal",
+        "cinnamaldehyde",
+        "신남알",
+        "신남알데히드",
+        "cinnamyl alcohol",
+        "신남알코올",
+        "hydroxycitronellal",
+        "하이드록시시트로넬알",
+        "farnesol",
+        "파네솔",
+        "coumarin",
+        "쿠마린",
+        "benzyl alcohol",
+        "벤질알코올",
+        "benzyl salicylate",
+        "벤질살리실레이트",
+        "benzyl benzoate",
+        "벤질벤조에이트",
+        "amyl cinnamal",
+        "아밀신남알",
+        "hexyl cinnamal",
+        "헥실신남알",
+        "amylcinnamyl alcohol",
+        "아밀신남알코올",
+        "anise alcohol",
+        "아니스알코올",
+        "methyl 2-octynoate",
+        "메틸2-옥티노에이트"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "fragrance_generic_label",
+      "label_ko": "향료(향/파르펌, 성분 비공개)",
+      "evidence_tier": "advisory",
+      "citation_ids": [
+        "eu_fragrance_allergens"
+      ],
+      "names": [
+        "fragrance",
+        "parfum",
+        "perfume",
+        "향료",
+        "향"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "isothiazolinone_preservative",
+      "label_ko": "이소티아졸리논계 보존제(MI/MCI/BIT)",
+      "evidence_tier": "strong",
+      "citation_ids": [
+        "mi_mci_allergy_epidemic"
+      ],
+      "names": [
+        "methylisothiazolinone",
+        "메틸이소티아졸리논",
+        "methylchloroisothiazolinone",
+        "메틸클로로이소티아졸리논",
+        "kathon cg",
+        "benzisothiazolinone",
+        "벤즈이소티아졸리논",
+        "2-methyl-4-isothiazolin-3-one",
+        "2-methylisothiazol-3(2h)-one",
+        "5-chloro-2-methyl-4-isothiazolin-3-one",
+        "5-chloro-2-methylisothiazol-3(2h)-one",
+        "1,2-benzisothiazol-3(2h)-one",
+        "1,2-benzisothiazolin-3-one"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "anionic_surfactant_irritant",
+      "label_ko": "음이온 세정 계면활성제(SLS 등)",
+      "evidence_tier": "mixed",
+      "citation_ids": [
+        "sls_irritant_contact_dermatitis"
+      ],
+      "names": [
+        "sodium lauryl sulfate",
+        "소듐라우릴설페이트",
+        "소듐라우릴황산염",
+        "sodium dodecyl sulfate",
+        "ammonium lauryl sulfate",
+        "암모늄라우릴설페이트",
+        "sodium laureth sulfate",
+        "소듐라우레스설페이트",
+        "sodium dodecyl sulphate",
+        "sds"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "comedogenic_high",
+      "label_ko": "고위험 코메도제닉 성분(모공 막힘 위험)",
+      "evidence_tier": "moderate",
+      "citation_ids": [
+        "comedogenic_ingredients"
+      ],
+      "names": [
+        "isopropyl myristate",
+        "이소프로필미리스테이트",
+        "isopropyl palmitate",
+        "이소프로필팔미테이트",
+        "isopropyl isostearate",
+        "이소프로필이소스테아레이트",
+        "myristyl myristate",
+        "미리스틸미리스테이트",
+        "coconut oil",
+        "cocos nucifera oil",
+        "코코넛오일",
+        "야자오일",
+        "lauric acid",
+        "라우르산",
+        "wheat germ oil",
+        "밀배아오일",
+        "lanolin",
+        "라놀린",
+        "acetylated lanolin",
+        "아세틸레이티드라놀린",
+        "cocoa butter",
+        "theobroma cacao seed butter",
+        "코코아버터",
+        "octyl palmitate",
+        "옥틸팔미테이트",
+        "octyl stearate",
+        "옥틸스테아레이트"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "alcohol_high_conc",
+      "label_ko": "변성알코올/에탄올(고농도)",
+      "evidence_tier": "moderate",
+      "concentration_threshold_pct": 15.0,
+      "citation_ids": [
+        "ethanol_barrier_atopic"
+      ],
+      "names": [
+        "ethanol",
+        "alcohol denat",
+        "alcohol denat.",
+        "alcohol",
+        "에탄올",
+        "변성알코올",
+        "sd alcohol",
+        "sd alcohol 40",
+        "sd alcohol 40-b"
+      ],
+      "smiles": [
+        "CCO"
+      ]
+    },
+    {
+      "id": "benzalkonium_chloride",
+      "label_ko": "벤잘코늄염화물(BAK) 보존제",
+      "evidence_tier": "strong",
+      "citation_ids": [
+        "bak_ocular_surface",
+        "bak_prostaglandin_synergy"
+      ],
+      "names": [
+        "benzalkonium chloride",
+        "벤잘코늄클로라이드",
+        "염화벤잘코늄",
+        "bak",
+        "benzalkonium"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "topical_retinoid_cosmetic",
+      "label_ko": "레티노이드 계열 화장품 성분(레티놀 등)",
+      "evidence_tier": "moderate",
+      "citation_ids": [
+        "isotretinoin_skin_fragility",
+        "bpo_retinoid_oxidation"
+      ],
+      "names": [
+        "retinol",
+        "레티놀",
+        "retinyl palmitate",
+        "레티닐팔미테이트",
+        "retinyl acetate",
+        "레티닐아세테이트",
+        "retinaldehyde",
+        "retinal",
+        "레티날",
+        "레티날데하이드"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "aha_exfoliant",
+      "label_ko": "AHA 각질제거 성분",
+      "evidence_tier": "strong",
+      "citation_ids": [
+        "aha_bha_photosensitivity"
+      ],
+      "names": [
+        "glycolic acid",
+        "글라이콜릭애씨드",
+        "글리콜산",
+        "lactic acid",
+        "락틱애씨드",
+        "유산",
+        "citric acid",
+        "시트릭애씨드",
+        "구연산",
+        "malic acid",
+        "말릭애씨드",
+        "사과산",
+        "tartaric acid",
+        "타르타릭애씨드",
+        "주석산",
+        "mandelic acid",
+        "만델릭애씨드",
+        "hydroxyacetic acid",
+        "2-hydroxypropanoic acid"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "bha_salicylic_acid",
+      "label_ko": "BHA(살리실산)",
+      "evidence_tier": "mixed",
+      "citation_ids": [
+        "aha_bha_photosensitivity"
+      ],
+      "names": [
+        "salicylic acid",
+        "살리실릭애씨드",
+        "살리실산",
+        "2-hydroxybenzoic acid"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "benzoyl_peroxide",
+      "label_ko": "벤조일퍼옥사이드",
+      "evidence_tier": "strong",
+      "citation_ids": [
+        "bpo_retinoid_oxidation"
+      ],
+      "names": [
+        "benzoyl peroxide",
+        "벤조일퍼옥사이드",
+        "과산화벤조일"
+      ],
+      "smiles": []
+    },
+    {
+      "id": "photosensitizing_furocoumarin",
+      "label_ko": "광독성 푸로쿠마린 함유 원료(베르가못오일 등)",
+      "evidence_tier": "strong",
+      "citation_ids": [
+        "bergapten_phototoxicity"
+      ],
+      "names": [
+        "bergamot oil",
+        "expressed bergamot oil",
+        "citrus bergamia oil",
+        "citrus bergamia (bergamot) fruit oil expressed",
+        "bergapten",
+        "5-methoxypsoralen",
+        "lime oil expressed",
+        "citrus aurantifolia oil expressed",
+        "베르가못오일",
+        "압착베르가못오일",
+        "베르갑텐",
+        "라임오일"
+      ],
+      "smiles": []
+    }
+  ],
+  "note_desktop_ko": "COS_desktop 0.3.0 데모 복사본: PubChem 공식 명칭 별칭 일부를 추가했습니다(원본 caution/ 폴더는 변경하지 않음)."
+}

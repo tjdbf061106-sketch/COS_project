@@ -1,0 +1,8 @@
+{
+  "mixture_id": "example::glaucoma_bak_mix",
+  "components": [
+    {"component_id": "CMP_001", "name": "Water", "canonical_smiles": "O", "amount_pct": 99.98},
+    {"component_id": "CMP_002", "name": "Benzalkonium Chloride", "canonical_smiles": "", "amount_pct": 0.02}
+  ],
+  "selected_conditions": ["dry_eye_disease", "glaucoma_chronic_drops"]
+}

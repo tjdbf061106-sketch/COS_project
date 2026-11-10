@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "note_ko": "이 목록은 1차 범위입니다. 전체 피부·안질환을 포괄하지 않으며, 문헌 근거가 확인된 질환/상태만 포함합니다.",
+  "conditions": [
+    {
+      "id": "acne_prone",
+      "domain": "skin",
+      "label_ko": "여드름성/지성 피부",
+      "description_ko": "면포(블랙헤드/화이트헤드)·염증성 여드름이 반복되는 피부 상태."
+    },
+    {
+      "id": "atopic_dermatitis",
+      "domain": "skin",
+      "label_ko": "아토피피부염",
+      "description_ko": "피부장벽 기능이 저하되어 자극물·알레르겐에 대한 민감도가 높아진 만성 염증성 피부질환."
+    },
+    {
+      "id": "contact_dermatitis_history",
+      "domain": "skin",
+      "label_ko": "알레르기성 접촉피부염 이력 / 민감성 피부",
+      "description_ko": "과거 특정 성분에 접촉 알레르기(첩포검사 양성 등)가 있었거나 화장품에 민감 반응을 보인 적이 있는 피부."
+    },
+    {
+      "id": "dry_eye_disease",
+      "domain": "eye",
+      "label_ko": "안구건조증",
+      "description_ko": "눈물막 불안정, 안구 표면 손상·불편감이 동반되는 상태."
+    },
+    {
+      "id": "glaucoma_chronic_drops",
+      "domain": "eye",
+      "label_ko": "녹내장(점안액 장기 사용자)",
+      "description_ko": "안압하강제 점안액을 장기간 매일 사용 중인 녹내장 환자. 누적 보존제 노출이 쟁점."
+    },
+    {
+      "id": "allergic_conjunctivitis_cl_wearer",
+      "domain": "eye",
+      "label_ko": "알레르기성 결막염 / 콘택트렌즈 착용자",
+      "description_ko": "눈 주변 제품 성분에 의한 알레르기·자극 반응 위험이 상대적으로 높은 상태."
+    }
+  ]
+}

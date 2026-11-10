@@ -1,0 +1,21 @@
+{
+  "model": "RandomForest",
+  "aggregation": "wmean",
+  "label": {
+    "1": "EPA I/II/III",
+    "0": "EPA IV"
+  },
+  "threshold": 0.33,
+  "input_features": 2267,
+  "selected_features": 524,
+  "checkpoint_sha256": "1ff0bd062fba0fab11c0407731ddb6996c7646bf033e07a4c501a391a2459e34",
+  "verified_python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "usage": "python skin/predict.py --input skin/examples/two_component_formulation.json",
+  "limitations": [
+    "Research prediction, not cosmetic safety or disease-specific suitability certification.",
+    "Existing behavior preserved: missing amount defaults to 1%; specify all amounts explicitly.",
+    "Invalid or missing structures may be skipped; inspect n_components_skipped.",
+    "Total composition percentages are not validated by this legacy inference code."
+  ],
+  "scope": "Inference-only final skin package; no eye, experiments, training data or backups included."
+}

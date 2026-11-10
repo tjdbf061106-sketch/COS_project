@@ -1,0 +1,7 @@
+name,canonical_smiles,amount_pct
+레티놀,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/CO)/C)/C,0.3
+리모넨,CC1=CCC(CC1)C(=C)C,0.1
+소듐라우릴설페이트,CCCCCCCCCCCCOS(=O)(=O)[O-].[Na+],1
+에탄올,CCO,20
+글리세린,OCC(O)CO,5
+정제수,O,73.6

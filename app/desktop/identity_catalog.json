@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-10T05:02:13.325668+00:00",
+  "compounds": [
+    {
+      "name": "정제수",
+      "aliases": [
+        "7732-18-5",
+        "aqua",
+        "water",
+        "물"
+      ],
+      "smiles": "O",
+      "cas": "7732-18-5",
+      "cid": 962,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/water/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/962/synonyms/JSON"
+    },
+    {
+      "name": "에탄올",
+      "aliases": [
+        "64-17-5",
+        "alcohol",
+        "ethanol",
+        "ethyl alcohol"
+      ],
+      "smiles": "CCO",
+      "cas": "64-17-5",
+      "cid": 702,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/702",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethanol/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/702/synonyms/JSON"
+    },
+    {
+      "name": "글리세린",
+      "aliases": [
+        "56-81-5",
+        "glycerin",
+        "glycerol",
+        "글리세롤"
+      ],
+      "smiles": "C(C(CO)O)O",
+      "cas": "56-81-5",
+      "cid": 753,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycerol/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/753/synonyms/JSON"
+    },
+    {
+      "name": "프로필렌글라이콜",
+      "aliases": [
+        "57-55-6",
+        "propylene glycol",
+        "프로필렌글리콜"
+      ],
+      "smiles": "CC(CO)O",
+      "cas": "57-55-6",
+      "cid": 1030,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1030",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propylene%20glycol/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1030/synonyms/JSON"
+    },
+    {
+      "name": "나이아신아마이드",
+      "aliases": [
+        "98-92-0",
+        "niacinamide",
+        "nicotinamide"
+      ],
+      "smiles": "C1=CC(=CN=C1)C(=O)N",
+      "cas": "98-92-0",
+      "cid": 936,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/936",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/niacinamide/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/936/synonyms/JSON"
+    },
+    {
+      "name": "요소",
+      "aliases": [
+        "57-13-6",
+        "urea"
+      ],
+      "smiles": "C(=O)(N)N",
+      "cas": "57-13-6",
+      "cid": 1176,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1176",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/urea/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1176/synonyms/JSON"
+    },
+    {
+      "name": "염화나트륨",
+      "aliases": [
+        "7647-14-5",
+        "sodium chloride"
+      ],
+      "smiles": "[Na+].[Cl-]",
+      "cas": "7647-14-5",
+      "cid": 5234,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20chloride/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5234/synonyms/JSON"
+    },
+    {
+      "name": "젖산",
+      "aliases": [
+        "50-21-5",
+        "lactic acid",
+        "락틱애씨드",
+        "유산"
+      ],
+      "smiles": "CC(C(=O)O)O",
+      "cas": "50-21-5",
+      "cid": 612,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/612",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lactic%20acid/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/612/synonyms/JSON"
+    },
+    {
+      "name": "소듐라우릴설페이트",
+      "aliases": [
+        "151-21-3",
+        "SLS",
+        "sodium dodecyl sulfate",
+        "sodium dodecyl sulphate",
+        "sodium lauryl sulfate",
+        "소듐라우릴황산염"
+      ],
+      "smiles": "CCCCCCCCCCCCOS(=O)(=O)[O-].[Na+]",
+      "cas": "",
+      "cid": 3423265,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3423265",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sodium%20dodecyl%20sulfate/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3423265/synonyms/JSON"
+    },
+    {
+      "name": "살리실산",
+      "aliases": [
+        "2-hydroxybenzoic acid",
+        "69-72-7",
+        "salicylic acid",
+        "살리실릭애씨드"
+      ],
+      "smiles": "C1=CC=C(C(=C1)C(=O)O)O",
+      "cas": "",
+      "cid": 338,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/338",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/salicylic%20acid/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/338/synonyms/JSON"
+    },
+    {
+      "name": "레티놀",
+      "aliases": [
+        "68-26-8",
+        "retinol"
+      ],
+      "smiles": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/CO)/C)/C",
+      "cas": "",
+      "cid": 445354,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/445354",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/retinol/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/445354/synonyms/JSON"
+    },
+    {
+      "name": "메틸이소티아졸리논",
+      "aliases": [
+        "2-Methyl-4-isothiazolin-3-one",
+        "2682-20-4",
+        "methylisothiazolinone"
+      ],
+      "smiles": "CN1C(=O)C=CS1",
+      "cas": "",
+      "cid": 39800,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/39800",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methylisothiazolinone/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/39800/synonyms/JSON"
+    },
+    {
+      "name": "리날룰",
+      "aliases": [
+        "78-70-6",
+        "linalool"
+      ],
+      "smiles": "CC(=CCCC(C)(C=C)O)C",
+      "cas": "",
+      "cid": 6549,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6549",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/linalool/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6549/synonyms/JSON"
+    },
+    {
+      "name": "리모넨",
+      "aliases": [
+        "138-86-3",
+        "limonene"
+      ],
+      "smiles": "CC1=CCC(CC1)C(=C)C",
+      "cas": "",
+      "cid": 22311,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/22311",
+      "property_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/limonene/property/Title,CanonicalSMILES,IsomericSMILES/JSON",
+      "synonyms_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/22311/synonyms/JSON"
+    }
+  ]
+}

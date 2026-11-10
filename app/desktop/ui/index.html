@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' qrc:; script-src 'self' qrc:; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+  <title>COS Lab · 원료 배합 분석</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="report.css">
+  <script src="qrc:///qtwebchannel/qwebchannel.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="evidence.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#"><img src="icon.svg" alt=""><span>COS <b>Lab</b><small>FORMULATION RESEARCH</small></span></a>
+    <div class="nav-label">WORKSPACE</div>
+    <button class="nav active" id="nav-input"><span class="nav-icon">◫</span>원료 배합 분석<span class="nav-number">01</span></button>
+    <button class="nav" id="nav-report"><span class="nav-icon">▤</span>분석 보고서<span class="nav-number">02</span></button>
+    <div class="sidebar-note"><span class="tiny-line"></span><strong>원료부터<br>분석 결과까지</strong><p>구조 · 함량 · 피부·눈 자극</p></div>
+    <div class="sidebar-bottom"><span class="status-dot"></span> 로컬 분석 공간<small id="app-version">COS Lab 0.3.0</small></div>
+  </aside>
+  <main>
+    <header class="topbar"><span>WORKSPACE <i>/</i> <b id="breadcrumb">원료 배합 분석</b></span><span class="research-badge">RESEARCH EDITION</span></header>
+    <section id="input-page" class="page">
+      <div class="page-heading"><div><div class="eyebrow">FORMULATION ANALYSIS</div><h1>원료 배합 분석</h1><p>원료와 함량을 입력해 분석을 시작하세요.</p></div><div class="heading-actions"><button class="button ghost" id="load-draft">배합 불러오기</button><button class="button secondary" id="save-draft">초안 저장 <span>↗</span></button></div></div>
+      <div class="workspace-grid">
+        <div class="workspace-main">
+          <section class="panel setup-panel"><div class="section-number">01</div><div class="setup-fields"><label>배합 이름<input id="formulation-name" placeholder="예: 연구 배합 A" maxlength="100"></label><label>입력 범위<select id="scope"><option value="partial">공개된 일부 조성</option><option value="complete">전체 배합</option></select></label></div></section>
+          <section class="panel ingredients-panel">
+            <div class="panel-heading"><div><span class="section-number inline">02</span><h2>원료와 함량</h2><span id="ingredient-count" class="count">1개</span></div><button class="text-button" id="import-csv">↓ CSV 불러오기</button></div>
+            <div class="table-wrap"><table class="ingredients"><thead><tr><th class="row-number">#</th><th>원료 식별</th><th class="amount-heading">함량 <small>% w/w</small></th><th>구조 확인</th><th></th></tr></thead><tbody id="rows"></tbody></table></div>
+            <button class="add-row" id="add-row">＋ 원료 추가</button>
+            <div class="table-foot"><span>질량 기준 함량을 입력해 주세요.</span><button class="text-button" id="load-example">예제 불러오기 ↗</button></div>
+          </section>
+          <div id="issues" class="issues hidden" role="alert"></div>
+        </div>
+        <aside class="summary-column">
+          <section class="panel summary-panel"><div class="eyebrow">COMPOSITION</div><h2>배합 요약</h2><div class="total"><span id="total">0</span><small>%</small></div><div class="composition-track"><div id="composition-fill"></div></div><dl><div><dt>입력 원료</dt><dd id="summary-count">1개</dd></div><div><dt>구조 확인</dt><dd id="resolved-count">0 / 1</dd></div><div><dt>미기재 함량</dt><dd id="unlisted">—</dd></div></dl><p class="summary-caption" id="scope-caption">일부 조성의 결과는 입력된 원료에 한정됩니다.</p></section>
+          <section class="models-panel"><h3>분석 모델</h3><div class="model-line"><span class="model-symbol">S</span><div><strong>피부자극</strong><small>Random Forest</small></div><span class="model-state">연결됨</span></div><div class="model-line"><span class="model-symbol eye">E</span><div><strong>안자극</strong><small>Logistic Regression</small></div><span class="model-state">연결됨</span></div></section>
+          <button class="button primary analyze-button" id="analyze"><span>피부·눈 분석하기</span><b>→</b></button>
+        </aside>
+      </div>
+    </section>
+    <section id="report-page" class="page hidden">
+      <div class="page-heading"><div><div class="eyebrow">ANALYSIS REPORT</div><h1 id="report-title">분석 보고서</h1><p id="report-subtitle">입력한 배합의 피부·안자극 예측 결과입니다.</p></div><div class="heading-actions"><button class="button ghost" id="edit-input">← 배합 수정</button><button class="button secondary" id="export-json">JSON 저장</button><button class="button secondary" id="export-csv">CSV 저장</button><button class="button secondary" id="export-pdf">PDF 저장</button></div></div>
+      <div id="empty-report" class="panel empty-report"><span>▤</span><h2>아직 분석 결과가 없습니다.</h2><p>원료와 함량을 입력한 뒤 분석을 실행해 주세요.</p><button class="button primary" id="start-input">원료 입력하기 →</button></div>
+      <div id="report-content" class="hidden">
+        <div id="report-summary" class="report-summary"></div>
+        <div class="result-grid" id="result-cards"></div>
+        <section id="caution-panel" class="caution-panel">
+          <div class="eyebrow">LITERATURE CAUTION</div><h2>문헌 기반 주의정보</h2>
+          <p class="caution-intro">입력 원료와 관련된 항목만 표시합니다. 해당하는 상태나 병용 중인 약물을 선택하세요.</p>
+          <p id="caution-coverage" class="caution-coverage hidden" role="status"></p>
+          <div id="caution-unmatched" class="caution-unmatched hidden" role="status"></div>
+          <div id="caution-picker" class="caution-picker hidden"><div class="caution-group"><h3>피부·눈 상태</h3><div id="caution-conditions" class="caution-options"></div></div><div class="caution-group"><h3>병용 약물·치료</h3><div id="caution-medications" class="caution-options"></div></div></div>
+          <div id="caution-body" aria-live="polite"></div>
+        </section>
+        <section id="evidence-panel" class="evidence-panel">
+          <div class="evidence-heading"><div><div class="eyebrow">INGREDIENT INSIGHT</div><h2>타깃 구조와 원료별 참고 정보</h2></div><label>확인할 원료<select id="evidence-target" aria-label="참고 정보를 볼 원료"></select></label></div>
+          <div id="evidence-body" aria-live="polite"></div>
+        </section>
+        <div class="report-tabs" role="tablist"><button class="active" data-tab="ingredients">원료별 입력</button><button data-tab="interpretation">결과 읽는 법</button><button data-tab="versions">모델 정보</button></div>
+        <section class="panel tab-panel" id="tab-ingredients"><div class="panel-heading"><h2>분석에 사용한 원료</h2><span class="muted">원래 함량 · 상대 가중치</span></div><div id="report-ingredients"></div></section>
+        <section class="panel tab-panel hidden" id="tab-interpretation"><h2>두 결과는 각각 해석해 주세요.</h2><div class="explanation-grid"><article><h3>피부자극</h3><p>EPA I·II·III와 IV를 구분하는 모델입니다. 모델 점수와 저장된 임계값으로 분류합니다.</p></article><article><h3>안자극</h3><p>EPA I·II와 III·IV를 구분합니다.</p></article><article><h3>모델 점수의 의미</h3><p>점수는 독성의 양이나 개인의 발병 확률이 아닙니다. 두 모델의 점수를 평균내 종합 안전 점수로 사용하지 않습니다.</p></article><article><h3>현재 분석 범위</h3><p>혼합물 연구 모델에 따른 예측입니다. 아토피·알레르기·안구건조증 등 질환별 사용 적합성과 화장품 안전성은 이 결과만으로 판단하지 않습니다.</p></article></div></section>
+        <section class="panel tab-panel hidden" id="tab-versions"><h2>재현 가능한 분석 기록</h2><div id="version-details"></div></section>
+        <p class="report-footer">COS Lab · 연구용 분석 보고서 <span id="report-date"></span></p>
+      </div>
+    </section>
+  </main>
+  <dialog id="candidate-dialog"><div class="dialog-heading"><div><div class="eyebrow">STRUCTURE CHECK</div><h2>원료 구조를 확인해 주세요.</h2></div><button class="icon-button" id="close-dialog" aria-label="닫기">×</button></div><p class="muted">검색 결과가 실제 투입 원료와 일치하는지 확인한 뒤 선택하세요.</p><div id="candidates"></div></dialog>
+  <div id="busy-overlay" class="busy-overlay hidden" role="status" aria-live="polite"><div class="busy-card"><span class="spinner"></span><h2>배합을 분석하고 있습니다.</h2><p>피부와 눈 모델을 각각 실행합니다.<br>입력한 원료의 수에 따라 잠시 걸릴 수 있어요.</p></div></div>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+</body>
+</html>

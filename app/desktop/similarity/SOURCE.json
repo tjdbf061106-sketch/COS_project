@@ -1,0 +1,23 @@
+{
+  "name": "COS similarity",
+  "version": "1",
+  "source_directory": "desktop/similarity",
+  "files": {
+    "similarity.py": "93669b2b4311badf0d7ab7fb5aab19f22df1e73715e9fbdc9f806366507ec5dd",
+    "fragrance_reference.json": "d3660de7e16c720c42b4d5b03baee83a3718e0a581355e2a4a93362ccaa5e6cb",
+    "surfactant_patterns.json": "e18fab3ce58569c528927ad3cc31b6bc70769b9ef6506e573924f0c2c3e331ce",
+    "README.md": "c1c51bc47f144cf770ccb8696f8929ea1fedaa33be8097095fde6717b59dbf42",
+    "verify.py": "88b57836e83dde1f3b141bf192cadf691235a75a715cb73aa666090f8d8570db"
+  },
+  "sha256": "5cbfa0037060d9d4bdad8e3c60ff91a2d02f8451ec79c8e56e9f794f54086f9c",
+  "upstream_files": {
+    "similarity.py": "93669b2b4311badf0d7ab7fb5aab19f22df1e73715e9fbdc9f806366507ec5dd",
+    "fragrance_reference.json": "d3660de7e16c720c42b4d5b03baee83a3718e0a581355e2a4a93362ccaa5e6cb",
+    "surfactant_patterns.json": "e18fab3ce58569c528927ad3cc31b6bc70769b9ef6506e573924f0c2c3e331ce",
+    "README.md": "319001a29c3763fa3d365357360a07da0a974eb902c5812e27d4d82267d8c6a4",
+    "verify.py": "88b57836e83dde1f3b141bf192cadf691235a75a715cb73aa666090f8d8570db"
+  },
+  "upstream_sha256": "96319623d7a22d2c31774e55d09b27cdd9a514c04c0d762523f8efdc7500c4ea",
+  "sha256_recipe": "SHA-256 of UTF-8 JSON of files, sorted keys, separators comma and colon.",
+  "changes": "Only README updated for the integrated app and local absolute source path removed; calculation code, reference data and verification code unchanged."
+}

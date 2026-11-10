@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "note_ko": "조회일 2026-11-09. 1차 문헌(PubMed/PMC) 우선, 2차 요약은 보조로만 표기했습니다. 전체 원문은 직접 확인하세요.",
+  "citations": {
+    "eu_fragrance_allergens": [
+      {"title": "EU Cosmetics Regulation (EC) No 1223/2009, Annex III — 26 / 82 fragrance allergens", "url": "https://eur-lex.europa.eu/eli/reg/2009/1223"},
+      {"title": "Commission Regulation (EU) 2023/1545 — 56 additional fragrance allergens", "url": "https://eur-lex.europa.eu/eli/reg/2023/1545"}
+    ],
+    "mi_mci_allergy_epidemic": [
+      {"title": "Uter W et al. The epidemic of methylisothiazolinone contact allergy in Europe: follow-up on changing exposures (2020)", "url": "https://onlinelibrary.wiley.com/doi/10.1111/jdv.15875"},
+      {"title": "Prevalence of Contact Allergy to Isothiazolinones in Dermatitis Patients From 2000 to 2025: A Systematic Review and Meta-Analysis", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13139707/"},
+      {"title": "Contact Sensitization in Adults With Atopic Dermatitis: A 21-Year Single-Center Tertiary Experience", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13070717/"}
+    ],
+    "sls_irritant_contact_dermatitis": [
+      {"title": "Susceptibility of atopic dermatitis patients to irritant dermatitis caused by sodium lauryl sulphate", "url": "https://pubmed.ncbi.nlm.nih.gov/1681644"},
+      {"title": "A dose-response study of irritant reactions to SLS in seborrhoeic dermatitis and atopic eczema", "url": "https://pubmed.ncbi.nlm.nih.gov/1362835/"},
+      {"title": "Challenging a paradigm: skin sensitivity to sodium lauryl sulfate is independent of atopic diathesis", "url": "https://pubmed.ncbi.nlm.nih.gov/31562780/"},
+      {"title": "Strengths and Limitations of Sodium Lauryl Sulfate as an Irritant Control in Patch Testing (2026)", "url": "https://onlinelibrary.wiley.com/doi/10.1111/cod.70075"}
+    ],
+    "comedogenic_ingredients": [
+      {"title": "Fulton JE. Comedogenicity and irritancy of commonly used ingredients in skin care products (J Soc Cosmet Chem, 1989)", "url": "https://www.scanskinai.com/ingredients/isopropyl-myristate"},
+      {"title": "Comedogenic Ratings — Acne Causing Ingredient List", "url": "https://www.platinumskincare.com/comedogenic-ratings/"}
+    ],
+    "ethanol_barrier_atopic": [
+      {"title": "Influence of Ethanol as a Preservative in Topical Formulation on Dermal Penetration in Healthy and Barrier-Disrupted Skin (2024)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11858868/"},
+      {"title": "CIR Expert Panel — Final report of the safety assessment of Alcohol Denat.", "url": "https://pubmed.ncbi.nlm.nih.gov/18569160/"},
+      {"title": "Moisturizing Cream with Ethanol May be Safe for People with Atopic Dermatitis (pilot RCT summary)", "url": "https://www.docwirenews.com/post/moisturizing-cream-with-ethanol-may-be-safe-for-people-with-atopic-dermatitis"}
+    ],
+    "bak_ocular_surface": [
+      {"title": "The use of benzalkonium chloride in topical glaucoma treatment (Nagstrup et al., Acta Ophthalmologica 2023)", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/aos.15808"},
+      {"title": "Ocular benzalkonium chloride exposure: problems and solutions", "url": "https://www.nature.com/articles/s41433-021-01668-x"},
+      {"title": "Ocular Surface Disease with BAK preserved Travoprost and Polyquaternium-1 preserved Travoprost", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6820501/"},
+      {"title": "The use of preservatives in dry eye drops", "url": "https://www.dovepress.com/the-use-of-preservatives-in-dry-eye-drops-peer-reviewed-fulltext-article-OPTH"},
+      {"title": "BAK-free glaucoma medications may reduce toxicity-related ocular surface disease (contact lens wearer note)", "url": "https://www.healio.com/news/optometry/20200417/bakfree-glaucoma-medications-may-reduce-toxicityrelated-ocular-surface-disease"}
+    ],
+    "isotretinoin_skin_fragility": [
+      {"title": "AAD — Isotretinoin: FAQs (waxing/scarring guidance)", "url": "https://www.aad.org/public/diseases/acne/derm-treat/isotretinoin/faqs"},
+      {"title": "Isotretinoin-induced skin fragility in a teenaged athlete: a case report", "url": "https://pubmed.ncbi.nlm.nih.gov/23961523/"},
+      {"title": "Isotretinoin use: best practice (The Pharmaceutical Journal)", "url": "https://pharmaceutical-journal.com/article/ld/isotretinoin-use-best-practice"},
+      {"title": "Doxycycline and Isotretinoin Interaction: Risks and Management (intracranial hypertension, systemic — not an ingredient effect)", "url": "https://www.empathia.ai/drug/obstetrics-gynecology-obgyn/doxycycline-isotretinoin-drug-interaction"}
+    ],
+    "bpo_retinoid_oxidation": [
+      {"title": "Dermatological compositions comprising retinoids, dispersed benzoyl peroxide and carrageenans (stability data: 50% tretinoin degraded in 2h, 95% in 24h)", "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8557871"},
+      {"title": "Absence of Degradation of Tretinoin When Benzoyl Peroxide is Combined with an Optimized Formulation of Tretinoin Gel (0.05%)", "url": "https://www.researchgate.net/publication/47520871_Absence_of_Degradation_of_Tretinoin_When_Benzoyl_Peroxide_is_Combined_with_an_Optimized_Formulation_of_Tretinoin_Gel_005"}
+    ],
+    "aha_bha_photosensitivity": [
+      {"title": "FDA — Guidance for Industry: Labeling for Cosmetics Containing Alpha Hydroxy Acids", "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-labeling-cosmetics-containing-alpha-hydroxy-acids"},
+      {"title": "FDA — Cosmetics: Alpha Hydroxy Acids (18% erythema sensitivity increase data)", "url": "https://www.fda.gov/cosmetics/cosmetic-ingredients/alpha-hydroxy-acids"},
+      {"title": "4 Tretinoin Interactions You Should Know About — GoodRx (tetracycline/photosensitizer flag)", "url": "https://www.goodrx.com/tretinoin/interactions"}
+    ],
+    "tci_alcohol_interaction": [
+      {"title": "Periorbital erythema following alcohol ingestion during treatment with topical tacrolimus (CMAJ)", "url": "https://www.cmaj.ca/content/188/5/368"},
+      {"title": "Wet Your Whistles: Alcohol-Induced Flushing With Use of Topical Calcineurin Inhibitors", "url": "https://www.mdedge.com/dermatology/article/252375/atopic-dermatitis/wet-your-whistles-alcohol-induced-flushing-use-topical"},
+      {"title": "Effect of Oral Acetylsalicylic Acid on Burning Caused by Tacrolimus Ointment in Patients With Atopic Dermatitis (JAMA Dermatology)", "url": "https://jamanetwork.com/journals/jamadermatology/fullarticle/422043"},
+      {"title": "5 Pimecrolimus Interactions: What To Avoid (harsh soaps/exfoliants/alcohol guidance)", "url": "https://www.doctronic.ai/blog/5-pimecrolimus-interactions-what-to-avoid-when-youre-taking-pimecrolimus/"}
+    ],
+    "bergapten_phototoxicity": [
+      {"title": "Berloque Dermatitis: Background, Pathophysiology, Etiology (eMedicine/Medscape)", "url": "https://emedicine.medscape.com/article/1119063-overview"},
+      {"title": "Furanocoumarin — an overview (ScienceDirect)", "url": "https://www.sciencedirect.com/topics/neuroscience/furanocoumarin"}
+    ],
+    "bak_prostaglandin_synergy": [
+      {"title": "Hyaluronate Protects From Benzalkonium Chloride-Induced Ocular Surface Toxicity", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11498636/"},
+      {"title": "A Comprehensive Review of the Clinical Evidence Comparing BAK-Preserved and BAK-Free Latanoprost", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13225004/"},
+      {"title": "Sodium Hyaluronate Decreases Ocular Surface Toxicity Induced by Benzalkonium Chloride-Preserved Latanoprost: An In Vivo Study", "url": "https://pubmed.ncbi.nlm.nih.gov/23620425/"}
+    ]
+  }
+}
